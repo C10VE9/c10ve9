@@ -1,0 +1,2816 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>AmyMovie Documentation </title>
+    <meta name="description" content="">
+    <meta name="author" content="AmyNews">
+    <meta name="copyright" content="AmyNews">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.css" media="all">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body class="documenter-project-sport">
+    <div id="documenter_sidebar">
+        <a href="#" id="documenter_logo"></a>
+        <nav class="main-nav">
+            <ul id="documenter_nav" class="main-menu">
+                <li class="parent active">
+                    <a href="#introduction">Introduction</a>
+                </li>
+
+                <li class="parent">
+                    <a class="" href="#installation">Installation<span class="caret-down"></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#package">AmyMovie Package Introduction</a>
+                        </li>
+                       
+                        <li><a href="#theme_ftp"> Install Theme via FTP</a>
+                        </li>
+                        <li><a href="#theme_wordpress">Install Theme via WordPress</a>
+                        </li>
+						
+                        <li><a href="#plugin_installation">Plugin Installation</a>
+                        </li>
+						 <li><a href="#demo_installation">Installing Demo Content</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="parent"><a href="#demo_introduction">Demo Introduction</a>
+                </li>
+
+                <li class="parent">
+                    <a href="#start">Get Started<span class="caret-down"></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#topbar">Topbar</a>
+                        </li>
+                        <li><a href="#header">Header</a>
+                        </li>
+                        <li><a href="#footer">Footer</a>
+                        </li>
+                        <li><a href="#movie">Movie</a>
+                        </li>
+						 <li><a href="#pageheader">Page Header</a>
+                        </li>
+                        <li><a href="#blog">Blog</a>
+                        </li>
+                        <li><a href="#skin">Skin</a>
+                        </li>
+                        <li><a href="#typography">Typography</a>
+                        </li>
+                        <li><a href="#social">Social</a>
+                        </li>
+						<li><a href="#media">Media</a>
+                        </li>
+                        <li><a href="#css">Custom CSS & JS</a>
+                        </li>
+						<li><a href="#content">Demo Content</a>
+                        </li>
+						<li><a href="#imdb">IMDb Import</a>
+                        </li>
+						
+                    </ul>
+                </li>
+
+                <li class="parent">
+                    <a href="#howto">How To<span class="caret-down"></span></a>
+                    <ul class="sub-menu">
+						<li><a href="#imdb_importer">How To Import Movies By Using IMDb Importer Function</a>
+                        </li>
+                        <li><a href="#cinema">How To Add New Cinemas</a>
+                        </li>
+                        <li><a href="#maps">How to get Google Map Iframe for Cinema’s location</a>
+                        </li>
+                        <li><a href="#genre">How To Add New Genres</a>
+                        </li>
+                        <li><a href="#actor">How To Add New Actors</a>
+                        </li>
+                        <li><a href="#director">How To Add New Directors</a>
+                        </li>
+                        <li><a href="#new_movie">How To Add New Movies Manually</a>
+                        </li>
+                        <li><a href="#post">Post Settings</a>
+                        </li>
+                        <li><a href="#homepage">How To Setup Homepage</a>
+                        </li>
+                        <li><a href="#menu">Menu Settings</a>
+                        </li>
+						<li><a href="#permalink">How To Custom Permalinks</a>
+                        </li>
+						<li><a href="#user">How To Custom User Login Page</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="parent">
+                    <a href="#amyshortcode">AmyMovie Shortcodes<span class="caret-down"></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#amy_tabs">Amy Tabs</a>
+                        </li>
+                        <li><a href="#amy_blog">Amy Movie Blog</a>
+                        </li>
+                        <li><a href="#amy_carousel">Amy Movie Carousel</a>
+                        </li>
+                        <li><a href="#amy_grid">Amy Movie Grid</a>
+                        </li>
+                        <li><a href="#amy_list">Amy Movie List</a>
+                        </li>
+                        <li><a href="#amy_metro">Amy Movie Metro Gallery</a>
+                        </li>
+                        <li><a href="#amy_rate">Amy Movie Rate List</a>
+                        </li>
+                        <li><a href="#amy_search">Amy Movie Search</a>
+                        </li>
+                        <li><a href="#amy_showtime">Amy Movie Showtime</a>
+                        </li>
+                        <li><a href="#amy_slide">Amy Movie Slide</a>
+                        </li>
+						<li><a href="#amy_community"> Community Shortcode</a>
+						</li>
+						<li><a href="#amy_gallery_carousel"> Gallery Carousel Shortcode</a>
+						</li>
+						<li><a href="#amy_gallery_gird"> Gallery Gird Shortcode</a>
+						</li>
+						<li><a href="#amy_heading"> Heading Shortcode</a>
+						</li>
+						<li><a href="#amy_movie_carousel1"> Movie Carousel 1 Shortcode</a>
+						</li>
+						<li><a href="#amy_movie_carousel2"> Movie Carousel 2 Shortcode</a>
+						</li>
+						<li><a href="#amy_movie_carousel3"> Movie Carousel 3 Shortcode</a>
+						</li>
+						<li><a href="#amy_movie_grid"> Movie Grid Shortcode</a>
+						</li>
+						<li><a href="#amy_movie_list"> Movie List Shortcode</a>
+						</li>
+						<li><a href="#amy_showtime1"> Showtime 1 Shortcode</a>
+						</li>
+						<li><a href="#amy_showtime2"> Showtime 2 Shortcode</a>
+						</li>
+						<li><a href="#amy_showtime3"> Showtime 3 Shortcode</a>
+						</li>
+						<li><a href="#amy_showtime4"> Showtime 4 Shortcode</a>
+						</li>
+						<li><a href="#amy_trailer"> Trailer List Shortcode</a>
+						</li>
+                    </ul>
+                </li>
+
+                <li class="parent">
+                    <a href="#custom_widget">Custom Widgets<span class="caret-down"></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="#widget_introduction">Widget Introduction</a>
+                        </li>
+                        <li><a href="#amy_list_wg">Amy Movie List</a>
+                        </li>
+                        <li><a href="#amy_comment">Amy Movie Comment</a>
+                        </li>
+                        <li><a href="#amy_module">Amy Movie Module</a>
+                        </li>
+                        <li><a href="#amy_comming">Amy Movie Coming Soon</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="parent"><a href="#side">Sidebars/ Widget Area Settings</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+    <div id="documenter_content">
+        <header>
+            <h2>AmyMovie Documentation</h2>
+        </header>
+        <div class="doc-container">
+
+            <section id="introduction" class="show page-header">
+                <h3>AmyMovie</h3>
+                <p>The best theme for your movie website</p>
+                <hr class="notop">
+                <p><strong>AmyMovie</strong> is a fully responsive WordPress theme designed for Movie websites.
+                </p>
+                <p>The various, modern and professional interface with clean code will make your Movie sites powerful, attractive and easy-to-use. You are easy to import movie data from <strong>IMDb</strong> website and with amazing showtime features, visitor can spend only some seconds to get the Movie Schedules in the different cinemas. With <strong>One-click</strong> demo feature, you can set up a website totally like our demo in seconds.
+                </p>
+                <p>Your site will make everybody discover new movies and know when those movies will show at the particular cinemas.
+                </p>
+
+                <h4><strong>AmyMovie Supporting Time</strong></h4>
+                <hr class="notop">
+                <p>AmyMovie offers you free lifetime updating.
+                </p>
+                <ul>
+                    <li>
+                        <p><strong>&raquo; Support time</strong>: 8AM - 5PM GMT +7, Monday to Friday</p>
+                    </li>
+                    <li>
+                        <p><strong>&raquo; Response Time</strong>: Within 24 hours (1 business day).</p>
+                    </li>
+                </ul>
+                <p><strong>Note</strong>: Support is <strong>NOT</strong> available on Saturday & Sunday due to our weekend break. All of the questions sent at the weekend will be solved on Monday of the next week
+                </p>
+                <p>
+                </p>
+
+                <h4><strong>System Requirement</strong></h4>
+                <hr class="notop">
+                <p>To use AmyMovie, please be sure that you are using <strong>WordPress version 4.0 or later</strong>,
+                    <strong>PHP version 2.5 or higher</strong> and <strong>MySQL version 5.0 or higher</strong>. And before going to the theme detail, we would like to provide you some references about WordPress. We think these references are usefull for users who are new to WordPress as well as experienced users.
+                </p>
+                <ul>
+                    <li>
+                        <p><strong>&raquo; <a href="https://codex.wordpress.org/New_To_WordPress_-_Where_to_Start">New to WordPress</a></strong>: Show basic WordPress information
+                        </p>
+                    </li>
+                    <li>
+                        <p><strong>&raquo; <a href="https://codex.wordpress.org/Installing_WordPress">Installation</a></strong>: How to install WordPress</p>
+                    </li>
+                </ul>
+
+                <h4><strong>Required Plugins</strong></h4>
+                <hr class="notop">
+                <ul>
+                    <li>&raquo; AmyTheme Framework plugin.
+                    </li>
+                    <li>&raquo; Amy Movie Extends plugin.
+                    </li>
+                    <li>&raquo; Visual Composer plugin.
+                    </li>
+                </ul>
+
+                <h4><strong>Recommended Plugins</strong></h4>
+                <hr class="notop">
+                <ul>
+					<li>&raquo; Amy User plugin.
+                    </li>
+                    <li>&raquo; Regenerate Thumbnails plugin.
+                    </li>
+                    <li>&raquo; Breadcrumb NavXT plugin.
+                    </li>
+                    <li>&raquo; Contact Form 7.
+                    </li>
+                    <li>&raquo; MailChimp for WordPress Plugin.
+                    </li>
+                    <li>&raquo; Regenerate Thumbnails.
+                    </li>
+                    <li>&raquo; Slider Revolution plugin.
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id="installation" class="page-header">
+                <h3>Installation</h3>
+                <hr class="notop">
+				<p>Installation shows you what is included in AmyMovie package and help you learn how to install theme via FTP, via WordPress and how to install required and recommended plugins using for AmyMovie theme.
+				</p>
+            </section>
+            <section id="package" class="page-header">
+                
+                <h3>AmyMovie Package Introduction</h3>
+				 <hr class="notop">
+                <p>From your account on themeforest.net, you can download the entire package of AmyMovie theme. The theme package is a zip file including the following structures:
+                </p>
+                <ul>
+                    <li>
+                        <p><strong>&raquo; amymovie.zip</strong>: A WordPress theme.</p>
+                    </li>
+
+                    <li>
+                        <p><strong>&raquo; Licensing</strong>: General license information.</p>
+                    </li>
+					 <li>
+                        <p><strong>&raquo; Resources</strong>: All of required and recommended plugins using for AmyMovie.</p>
+                    </li>
+                    <li>
+                        <p><strong>&raquo; Docunentation</strong>: The instruction to user AmyMovie theme.</p>
+                    </li>
+
+                </ul>
+            </section>
+
+           
+
+            <section id="theme_ftp">
+                <h3>Install Theme via FTP</h3>
+				 <hr class="notop">
+                <p>Follow the steps below to learn how to install theme via FTP</p>
+                <ul>
+                    <li>
+                        <p><span class="span-style1">Step 1</span>: Login to your hosting space via an FTP software</p>
+                    </li>
+
+                    <li>
+                        <p><span class="span-style1">Step 2</span>: Unzip the AmyMovie file and only use the extracted AmyMovie folder</p>
+                    </li>
+
+                    <li>
+                        <p><span class="span-style1">Step 3</span>: Upload the extracted AmyMovie folder into <strong>wp-content</strong> => <strong>Theme folder</strong>
+                        </p>
+                    </li>
+                    <li>
+                        <p><span class="span-style1">Step 4</span>: Activate the newly installed theme by going to <strong>Appearance</strong> => <strong>Themes</strong> and click on <strong>Activate</strong> button to activate theme
+                        </p>
+
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id="theme_wordpress">
+                <h3>Install Theme via WordPress</h3>
+				 <hr class="notop">
+                <p>Follow the steps below to learn how to install theme via WordPress</p>
+                <ul>
+                    <li>
+                        <p><span class="span-style1">Step 1</span>: From backend, go to <strong>Appearances</strong> => <strong>Themes</strong> => <strong>Add New</strong> button, click on <strong>Upload</strong> button at the top of the page</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/install-wp-1.jpg" alt="" />
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><span class="span-style1">Step 2</span>: Click on <strong>Choose File</strong> to choose theme from your local computer, the file requirement is <strong>zip</strong> format. Press <strong>Install Now</strong> button to install theme.</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/install-wp-2.jpg" alt="" />
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><span class="span-style1">Step 3</span>: Wait for few seconds, the theme will be uploaded and extracted automatically by WordPress. After this process complete, you only need to press on
+                            <strong>Activate</strong> link under the message for successful installed theme.</p>
+                        <p>
+                            <img src="images/imagedoc/image/install-wp-3.jpg" alt="" />
+                        </p>
+                    </li>
+                </ul>
+                <p>Once you ativate AmyNews, you will receive notification message to install plugins. Follow the steps of <strong>Plugins Installation</strong> part below to learn how to do this
+                </p>
+            </section>
+			
+			
+            <section id="plugin_installation">
+                <h3>Plugin Installation</h3>
+				 <hr class="notop">
+                <h4><strong>How to install required and recommended plugins for AmyMovie</strong></h4>
+                <ul>
+                    <li>
+                        <p><span class="span-style1">Step 1</span>: Once you activate AmyMovie, you will receive a notification message at the top of the screen that shows you which are required plugins and which are recommended plugins for theme</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/install-plugin-1.jpg" alt="" />
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><span class="span-style1">Step 2</span>: Click on <strong>Begin Install Plugins</strong> link under the message to go to Plugin’s list in which you can install and activate the required and recommended plugins. Tick on the box for plugins you wish to install => Click on <strong>Bulk Action</strong> to see drop-down list => <strong>Install</strong> => <strong>Apply</strong> button</p>
+                        <p><strong>Important: Required plugins are compulsory plugins to make AmyMovie work.</strong>
+                        </p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/install-plugin-22.jpg" alt="" />
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><span class="span-style1">Step 3</span>: Wait for some seconds, after all of the plugin is installed, from <strong>Dashboard</strong> => <strong>Plugins</strong>, you will activate the plugins as you want.</p>
+                    </li>
+                </ul>
+            </section>
+			
+			 <section id="demo_installation">
+                <h3>Installing Demo Content</h3>
+				 <hr class="notop">
+                <p>By <strong>One-Click Demo</strong>, you are easy to set up a site the same as AmyMovie's demo in seconds. AmyMovie offers you two homepage and you are easy to install one as you want.</p>
+				<p><strong>Important: Before installing demo, you need to make sure that AmyMovie theme and required plugins (Amy Movie Extends, AmyTheme Framework and WPBakery Visual Composer) are installed and activated successfully</strong>
+				</p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Demo Content</strong> => There are two demo layouts to choose. Click on <strong>Install</strong> button at Homepage layout you want to install, a popup will appear to ask if you want to continue installing the demo content. Click on <strong>OK</strong> button if you want to continue. Please wait for some seconds, once the installing process is completed, you will see the message <strong>Demo's Installed</strong> 
+				</p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/install.png" alt="" />
+                </p>
+				<p>Once the instlling demo precess completed, you will see the informing message
+				</p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/uninstall.png" alt="" />
+                </p>
+				
+				<p><strong>Uninstall Demo</strong>: If you want to uninstall the demo, from <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Content Demo</strong> => Click on <strong>Uninstall</strong> button and wait for some seconds.
+				</p>
+				
+            </section>
+
+
+            <section id="demo_introduction" class="page-header">
+                <h3>Demo Introduction</h3>
+                <hr class="notop">
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/demo-1.jpg" alt="" />
+                </p>
+
+            </section>
+
+            <section id="start" class="page-header">
+                <h3>Get Started</h3>
+                <hr class="notop">
+				<p>After installing AmyMovie quickstart successfully, you need to change the general information for the theme to make it step by step become your own website.
+				</p>
+				<p>By theme options, you are allowed to tweak a theme’s global settings. You can change the logo, topbar, theme color, theme footer, copyright, social network, and more...
+				</p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong>, you can change the settings of theme options here.
+				</p>
+            </section>
+
+            <section id="topbar" class="page-header">
+               
+                <h3>Top Bar</h3>
+				 <hr class="notop">
+                <p>This section allows you to customize theme top bar. You can add modules to display Text, Link, Social List, WP login or Menu on the top bar.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Topbar</strong> => you can add module for top bar right or top bar left.
+               <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-topbar-textg.gif" alt="" />
+                                </p>
+                <p>Choose <strong>On</strong> for <strong>Enable Top Bar</strong> option to enable theme top bar. You can add modules on the top bar position.
+                </p>
+                <P>&raquo; <strong>Top Bar left</strong>: Click on <strong>Add New Module</strong> button => <strong>Module Type</strong> => click on <strong>Arrow Down</strong> button to choose a module from the list.</p>
+                <p>&raquo; <strong>Top Bar Right</strong>: Click on <strong>Add New Module</strong> button => <strong>Module Type</strong> => click on <strong>Arrow Down</strong> button to choose a module from the list.
+                    <p>
+                        <p>Here we introduce you the detail guide to add modules into the top bar. AmyMovie supports 5 module types, they are <strong>Text</strong>,
+                            <strong>Link</strong>, <strong>Social List</strong>,
+                            <strong>WP Login</strong>, <strong>Menu</strong>.
+                        </p>
+                        <ul>
+                            <li>
+                                <p> <strong>1. Link module</strong>: If you choose <strong>Module Type</strong> is
+                                    <strong>Link</strong>, at the backend you can see</p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-topbar-link.jpg" alt="" />
+                                </p>
+                            </li>
+
+                            <li>
+                                <p><strong>2. Text module</strong>: If you choose <strong>Module Type</strong> is
+                                    <strong>Text</strong>, at the backend you can see</p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-topbar-text.jpg" alt="" />
+                                </p>
+								
+								
+                            </li>
+
+                            <li>
+                                <p><strong>3. Social module</strong>: If you choose <strong>Module Type</strong> is
+                                    <strong>Social</strong>, your social network (Facebook, Google+, Twitter, Pinterest will appear on the module.</p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-topbar-social.jpg" alt="" />
+                                </p>
+                            </li>
+
+                            <li>
+                                <p><strong>4. WP Login module</strong>: If you choose <strong>Module Type</strong> is <strong>WP Login</strong>, the default WordPress login module will display on the top bar.</p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-topbar-login.jpg" alt="" />
+                                </p>
+                            </li>
+
+                            <li>
+                                <p><strong>5. Menu module</strong>: If you choose <strong>Module Type</strong> is
+                                    <strong>Menu</strong>, a menu will display on the top bar.</p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-topbar-menu.jpg" alt="" />
+                                </p>
+                            </li>
+
+                        </ul>
+                         <p>On the frontend, you can see theme top bar here
+                        </p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/topbar-frontend.jpg" alt="" />
+                        </p>
+
+            </section>
+
+            <section id="header">
+                <h3>Header</h3>
+				 <hr class="notop">
+                <p>Header section allows you to change theme favicon, logo, header style, header skin (dark, light) and enable/ disable search module at Header part.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Header</strong> => <strong>Logo</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/headerlogo1.png" alt="" />
+                </p>
+                <ul>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Favicon</strong>: is known as a page icon or an urlicon, it is an icon associated with a particular website or webpage.
+                        </p>
+                        <p>There are two ways to upload Favicon for your site
+                        </p>
+                        <ul>
+                            <li>&raquo; <strong>First Way</strong>: At <strong>Favicon</strong> option, click on <strong>Add Image</strong> to upload new Favicon from your computer or from the media library.
+                            </li>
+                            <li>&raquo; <strong>Second Way</strong>: From <strong>Dashboard</strong> => <strong>Appearance</strong> => click on <strong>Customize</strong> => click on <strong>Site Identify</strong> => click on <strong>Site Icon</strong> or click on <strong>Select Image</strong> button to upload an image from your local computer or the library.
+                            </li>
+                        </ul>
+                        <p>Note: If you choose Second Way to upload a favicon, First Way will be invalid.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Logo</strong>: is associated with the value of the brand. AmyMovie allows you to add the logo as an image or a text.</p>
+                        <ul>
+                            <li>&raquo; <strong>Site Logo Text</strong>: Enter logo text as you want.
+                            </li>
+                            <li>&raquo; <strong>Site Logo</strong>: Click on Add Image button to upload a new logo image.
+                            </li>
+                            <li>&raquo; <strong>Site Logo @2x for Retina</strong>: AmyMovie is retina ready, so click on <strong>Add Image</strong> button to upload a retina logo for high resolution devices.
+                            </li>
+                            <li>&raquo; <strong>Logo Padding Top, Logo Padding Bottom</strong>: These options allows you to set the distance from logo to top bar position and the distance from logo to main menu (unit: pixel)
+                            </li>
+                        </ul>
+                        <p>Note: if you upload a logo image, the logo text will be disabled automatically.
+                        </p>
+                    </li>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Header</strong> => <strong>Header Layout</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/headerlayout.png" alt="" />
+                </p>
+                <ul>
+
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Header Style</strong>: AmyMovie offers three nice header styles and 2 header skins (dark skin and light skin). Each header includes one logo and one main menu.</p>
+                        <ul>
+                            <li>
+                                <p>&raquo; <strong>Style 1</strong>: Logo top left + Menu top right</p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-header-1.jpg" alt="" />
+                                </p>
+                            </li>
+                            <li>
+                                <p>&raquo; <strong>Style 2</strong>: Logo top left + Menu under</p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-header-2.jpg" alt="" />
+                                </p>
+                            </li>
+                            <li>
+                                <p>&raquo; <strong>Style 3</strong>: Logo top center + Menu top center</p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-header-3.jpg" alt="" />
+                                </p>
+                            </li>
+							
+							<li>
+                                <p>&raquo; <strong>Header Light Skin and Style 1</strong></p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/light.jpg" alt="" />
+                                </p>
+                            </li>
+							<li>
+                                <p>&raquo; <strong>Header Dark Skin and Style 2</strong></p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/dark.jpg" alt="" />
+                                </p>
+                            </li>
+							<li>
+								<p>&raquo; <strong> Line Through Position </strong> :You can choose line through position when menu hover such as <strong>Bottom</strong>, <strong>Center</strong>, of <strong>None</strong>.
+								</p>
+							</li>
+							
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Show Search on Header</strong>: Select On/ Off to show/ hide Search module at Header.
+                        </p>
+                    </li>
+                    <li>
+                        <p>&raquo; <strong>Disable Menu in Max Width</strong>: The maximum width value of the screen in which the menu will change from normal style to sticky style is <strong>992px</strong> by default.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="footer">
+                <h3>Footer</h3>
+				 <hr class="notop">
+                <p>You can specific your footer columns and customize the copyright section by adding new modules (Text, Link, Social List, WP Login, Menu) like the same as Top bar section.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Footer</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/footer.png" alt="" />
+                </p>
+                <ul>
+                    <li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Enable Footer</strong>: This option allows you to show/hide footer. If you choose
+                        <strong>No</strong>, the footer will be disabled on all pages.
+                    </li>
+					<li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Footer Background Image</strong>: You can change Footer Background Image on this option.
+					</li>
+					<li>&raquo; <strong> Footer Background Color</strong>: You can change color of the Footer Background by <strong>Select Color</strong>.
+					</li>
+                    <li><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Footer Widget Before</strong>: This is a full-width Widget Area before the main footer. If you choose <strong>On</strong> for <strong>Footer Widget Before</strong> option, at <strong>Appearance</strong> => <strong>Widget</strong>, you will see <strong>Footer Widget Before</strong> area.
+                    </li>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_4.png" alt=""/> Footer Widgets</strong>: Here you can decide the footer style with the number of columns. AmyMovie offers 10 nice footer styles.</p>
+                        <p>After choosing one of 10 footer styles, at <strong>Appearance</strong> => <strong>Widgets</strong>, you will see the list of footer widgets area which is corresponding to the number columns of Footer style you chose before.
+                        </p>
+                        
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_5.png" alt=""/> Footer Widget After</strong>: This is a full-width Widget Area before the main footer. If you choose <strong>On</strong> for <strong>Footer Widget After</strong> option, at <strong>Appearance</strong> => <strong>Widget</strong>, you will see <strong>Footer Widget After</strong> area.
+                    </li>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_6.png" alt=""/> Copyright</strong>: This section allows you to enable/ disable copyright part, and add new module like text, link, social list, WP login, or menu module to the copyright field.</p>
+                        <ul>
+                            <li>&raquo; <strong>Enable Copyright</strong>: This option allows you to show/hide copyright on all page. If you choose <strong>On</strong>, the copyright will be enabled.
+                            </li>
+                            <li>&raquo; <strong>Copyright Left</strong>: Click on <strong>Add New Module</strong> button to add a new module for the copyright on the left side.
+                            </li>
+                            <li>&raquo; <strong>Copyright Right</strong>: Click on <strong>Add New Module</strong> button to add a new module for the copyright on the right side.
+                            </li>
+                        </ul>
+                        <p>The config of the module style is the same as the config at Topbar part
+                        </p>
+                    </li>
+                </ul>
+				
+				<h4><strong>Custom Content For Footer</strong></h4>
+				 <hr class="notop">
+				<p>Here we show you how to add your Footer content.
+				</p>
+					 <ul>
+						<li>
+							<p><span class="span-style1">Step 1</span>: From backend => <strong>Appearance</strong> => <strong>Widgets.</strong>
+							</p>
+							
+						</li>
+
+						<li>
+							<p><span class="span-style1">Step 2</span>: Here you will find the Footer Widget Areas. </p>                     
+    
+						</li>
+
+						<li>
+							<p><span class="span-style1">Step 3</span>: Drag and Drop the widgets as you like to the Footer Widget Areas.</p>
+                        
+						</li>
+					</ul>
+				<p>
+                            <img class="fullwidth" src="images/imagedoc/image/theme-footer-widget.jpg" alt="" />
+                        </p>
+				<p></p>
+<p></p>				
+				<h4><strong>Custom Content For Copyright position</strong></h4>
+				 <hr class="notop">
+				<p>In AmyMovie demo, Copyright position includes the copyright text in the left and a menu in the right. Here we show you how to create a copyright like our demo.
+				</p>
+					 <ul>
+						<li>
+							<p><span class="span-style1">Step 1</span>: From backend => <strong>AmyMovie</strong> => <strong>Footer.</strong>
+							</p>
+							
+						</li>
+
+						<li>
+							<p><span class="span-style1">Step 2</span>: Choose <strong>On</strong> for <strong>Enable Copyright</strong> option.</p>                     
+    
+						</li>
+
+						<li>
+							<p><span class="span-style1">Step 3</span>: Add <strong>Text</strong> module for <strong>Copyright Left</strong> option.</p>
+							<p>
+                            <img class="fullwidth" src="images/imagedoc/image/theme-footer-copy-left.jpg" alt="" />
+                        </p>
+                        
+						</li>
+						<li>
+							<p><span class="span-style1">Step 4</span>: Add <strong>Menu</strong> module for <strong>Copyright Right</strong> option.</p>
+							<p>
+                            <img class="fullwidth" src="images/imagedoc/image/theme-footer-copy-right.jpg" alt="" />
+							</p>
+						</li>
+					</ul>
+					
+                <h4><strong>On the front-end you can see</strong></h4>
+                
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/theme-footer-frontend.jpg" alt="" />
+                </p>
+            </section>
+
+            <section id="movie">
+                <h3>Movie</h3>
+				 <hr class="notop">
+                <p>This section allows you to customize the URL of movie/ cinema/ actor/ director/ genre pages and set the global settings for the single movie pages and genre pages.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Movie</strong> => <strong>General</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/moviegeneral.png" alt="" />
+                </p>
+                <ul>
+					<li>
+                        <p><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Cinema System</strong>
+                        </p>
+                        <ul>
+                            <li>&raquo; <strong>Enable Cinema System</strong>: Choose <strong>On/ Off</strong> to enable/ disable cinema feature for the movie site both backend and frontend.
+                            </li>
+   
+                            <li>&raquo; <strong>Search Per Page</strong>: Enter the number of movies will show per page in result search.
+                            </li>
+							<li>&raquo; <strong>Showtime Type</strong>: Decide the showtime type (All Days, Coming Soon).
+							</li>
+								<li>&raquo; <strong> All Days </strong>: Allows you to show the movie showtime of all days.
+								</li>
+								<li>&raquo; <strong> Coming Soon </strong>: Allows you to show the movie showtime in the future (after today).
+                        </ul>
+                    </li>
+                   
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Default Fields</strong>
+                        </p>
+                        <ul>
+							<li>&raquo; </strong> Enable Start & End Date</strong>: This option allows you to <strong>Show</strong> or <strong>Hide</strong> Start&End date.
+							</li>
+							<li>&raquo; <strong> Enable Default Fields</strong> : This option allows you to select features will show on Default Fields.
+							</li>
+						</ul>
+					</li>
+					
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_3ng" alt=""/> Custom Fields </strong>: This option allows you to create <strong>Default Fields</strong> with <strong>Fields Name</strong> and <strong>Type</strong>.
+						</p>
+					</li>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Movie</strong> => <strong>Layout & Template </strong>.
+				</p>
+			    <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movielayout1.png" alt=""/>
+                </p>
+                <ul>
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Movie Search Page </strong>.
+						<p>
+						<ul>
+							<li>&raquo; <strong>Layout</strong> : There are two layouts to display movies on Movie Search Page: <strong> List </strong> or <strong>Gird</strong> style.
+							</li>
+							<li>&raquo; <strong>Grid Layout</strong>:Shows if you choose "Grid" for "Layout" option. There are 4 layouts for Grid style.
+							</li>
+							<li>&raquo; <strong>Columns</strong>:Appear when select Grid style. You can select number of column will show on Grid style.
+							</li>
+							<li>&raquo; <strong>Search Per Page</strong>: Number of movie per page in result search movie.
+							<li>
+						</ul>
+					</li>
+				
+				<ul>
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Genre & Category Page</strong>.
+						<p>
+						<ul>
+							<li>&raquo; <strong>Sidebar</strong>: Click on <strong>Arrow-down</strong> button to select the layout of genre page with right sidebar, left sidebar or no sidebar.
+							</li>
+							<li>&raquo; <strong>Sidebar Widget</strong>:Click on <strong>Arrow-down</strong> button to choose widget for your sidebar.
+							</li>
+							<li>&raquo; <strong>Layout</strong>:  There are two layouts to display Genre & Category Page: <strong>List</strong> of <strong>Gird</strong> style.
+							</li>
+							<li>&raquo; <strong>Movies Per Page</strong>: Number of movie will show on per page.
+							</li>
+							<li>&raquo; <strong>Show Pagination</strong>: This option allows you to <strong>Show</strong> of <strong>Hide</strong> number of pagination.
+							</li>
+						</ul>
+					</li>
+				<ul>
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Actor & Director & Person Page</strong>.
+						<p>
+						<ul>
+							<li>&raquo; <strong>Sidebar</strong>:  Click on <strong>Arrow-down</strong> button to select the layout of Actor & Director & Person Page with right sidebar, left sidebar or no sidebar.
+							</li>
+						</ul>
+					</li>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Movie</strong> => <strong>Single Movie </strong>.
+				</p>
+			    <p>
+                    <img class="fullwidth" src="images/imagedoc/image/moviesingle.png" alt=""/>
+                </p>
+                <ul>
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Sidebar Default </strong>: You can choose <strong>Left Sidebar</strong> , <strong>Right SideBar</strong> and <strong> None SideBar</strong> for Single Movie.
+						<p>
+						<ul>
+							<li>&raquo; <strong>Movie SideBar Widget</strong>: This option allows you to change <strong>Widget</strong> of Movie Sidebar.
+							</li>
+							<li>&raquo; <strong>List Fields Visbile</strong>: You can choose Fields can Visbile on Single Movie.
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Show Comment in Movie</strong>: Choose <strong>On/ Off</strong> to show/ hide comments in Movie Detail page.
+						<p>
+						<ul><li>&raquo; <strong>Enable User Rate</strong>: Choose <strong>On</strong> to allow users can rate the movie on the frontend.
+							</li>
+							<li>&raquo; <strong>Show recent Movie</strong>:Choose <strong>On</strong> to allow recent movie can show on the frontend.
+							</li>
+						</ul>
+					</li>
+                </ul>
+            </section>
+			
+			<section id="pageheader">
+                <h3>Page Header</h3>
+				 <hr class="notop">
+                <p>Header section allows you to set the global setting for your Page Header
+				</p>
+				<p>From <strong> Dashboard</strong> => <strong>AmyMovie</strong> =><strong>Page Header</strong>.
+				<p>
+					<img class="fullwidth" src="images/imagedoc/image/pageheader.png" alt=""/>
+				</p>
+				<ul>
+					<li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Text Position </strong>: This option allows you to put position of Text on Page Header such as <strong>Center</strong>, <strong> Left</strong> and <strong> Right</strong>.
+					</li>
+				</ul>
+				<ul>
+					<li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/>Paddig</strong>: You can change padding on Top and Bottom of Page Header.
+					</li>
+				</ul>
+				<ul>
+					<li><strong><img src="images/imagedoc/image/icon_3.png" alt=""/>Back ground</strong>: You can choose image background and custom for image.
+					</li>
+				</ul>
+				<ul>
+					<li><strong><img src="images/imagedoc/image/icon_3.png" alt=""/>Parallax </strong>: Choose <strong>On</strong> to allow users can use Parallax effect.
+					</li>
+					<li>&raquo; <strong>Overlay</strong>: Choose <strong>On</strong> to allow users can creat one overlay for Page Header.
+					</li>
+					<li>&raquo; <strong>Overlay Color</strong>: You can choose Color for Overlay.
+					</li>
+					<li>&raquo; <strong>Video Header</strong>: This option allows put Video on Page Header.
+					</li>
+					<li>&raquo; <strong>Color</strong>: You can change color of the <strong>Link</strong>, <strong>Text</strong>, and <strong>Link Hover</strong>.
+					</li>
+					<li>&raquo; <strong>Breadcrumb Color</strong>: You can change color for Breadcrumb Color when <strong>Nomarly</strong> or <strong>Hover</strong>.
+					</li>
+				</ul>
+            </section>
+	
+            <section id="blog">
+                <h3>Blog</h3>
+				 <hr class="notop">
+                <p>Blog section allows you to set the global setting for your blog pages: set blog page layouts with sidebar or without sidebar, list layout, grid layout or masonry layout; decide content position and enable/ disable pagination. You also can set global settings to add the recent posts for the single post page.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Blog</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/theme-blog.jpg" alt="" />
+                </p>
+                <ul>
+                    <li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Blog Sidebar</strong>: Click on Arrow-down button to decide the layout of Blog page with right sidebar, left sidebar or no sidebar.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Blog Sidebar Widget</strong>: Click on Arrow-down button to select a widget from the list for the sidebar.
+                    </li>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Blog Layout</strong>: There are three layouts to display the posts on your Blog page.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>&raquo; <strong>Blog Layout  - List Style</strong>
+                                </p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-blog-layout1.jpg" alt="" />
+                                </p>
+                            </li>
+                            <li>
+                                <p>&raquo; <strong>Blog Layout - Grid Style</strong>
+                                </p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-blog-layout2.jpg" alt="" />
+                                </p>
+                            </li>
+                            <li>
+                                <p>&raquo; <strong>Blog Layout 3 - Masonry Style</strong>
+                                </p>
+                                <p>Please note that Masonry style only works when you choose No Sidebar for Blog Sidebar option.
+                                </p>
+                                <p>
+                                    <img class="fullwidth" src="images/imagedoc/image/theme-blog-layout3.jpg" alt="" />
+                                </p>
+                                <p><strong>Now you can set the global configuration for Single Post page at Single Post section</strong>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><img src="images/imagedoc/image/icon_4.png" alt="" /><strong> Recent Post</strong>: Select On/ Off to decide show/hide recent posts under the Post Detail Page.
+                    </li>
+                    <li><img src="images/imagedoc/image/icon_5.png" alt="" /><strong> Recent Post By</strong>: Click on Arrow-down button to decide to show Recent Post by Categories or Tags.
+                    </li>
+                    <li><img src="images/imagedoc/image/icon_6.png" alt="" /><strong> Recent Post Title</strong>: Enter the Recent Post title you want to display.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="skin">
+                <h3>Skin</h3>
+				 <hr class="notop">
+                <p>Skin section allows you to change the general skin color of your website and you can set up the global page title bar.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Skin</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/skin1.png" alt="" />
+                </p>
+                <ul>
+
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> General</strong>.
+                        </p>
+                        <ul>
+                            <li>&raquo; <strong>Disable Skin</strong>: If you choose <strong>On</strong>, the default skin color for your website is orange. If you choose
+                                <strong>OFF</strong>, the
+                                <strong>Skin</strong> option will appear.
+                            </li>
+                            <li>&raquo; <strong>Skin</strong>: Click on Arrow-down icon to select the custom skin for your webpage.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Page Title</strong>.
+                        </p>
+                        <ul>
+                            <li>&raquo; <strong>Page Title Background color</strong>: Click on Select Color button to select background color for the page title bar.
+                            </li>
+                            <li>&raquo; <strong>Page Title Background Image</strong>: Click on Add Image button to select an image from the library or upload an image from your local devices.
+                            </li>
+                            <li>&raquo; <strong>Page Title Color</strong>: Click on Select Color button to select color for the page title text.
+                            </li>
+                        </ul>
+
+                    </li>
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Top Bar</strong>.
+						</p>
+						<ul>
+							<li>&raquo; <strong>Top Bar Background Color</strong>: You can change color of TopBar Background.
+							</li>
+							<li>&raquo;<strong>Topbar Text Color</strong>: You can change color of Topbar Text.
+							</li>
+							<li>&raquo; <strong>Topbar Link Color Color</strong>: You can change color of Topbar Link Color.
+							</li>
+							<li>&raquo; <strong>Topbar Link Hover Color</strong>: You can change color of Topbar Link Hover.
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_4.png" alt=""/>Header</strong>.
+						</p>
+						<ul>
+							<li>&raquo; <strong>Header Background Color</strong>: You can change color of Header Background.
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p><strong><img src="images/imagedoc/image/icon_5.png" alt=""/>Main Menu</strong>
+						</p>
+						<ul>
+							<li>&raquo; <strong>Menu Color</strong>: You can change color of Menu.
+							</li>
+							<li>&raquo; <strong>Menu Hover Color</strong>: You can change color when hover on Menu.
+							</li>
+							<li>&raquo; <strong>Submennu Background Color</strong>: You can change color of Submenu background.
+							</li>
+							<li>&raquo; <strong>Submenu Color</strong>: You can change color of Submenu.
+							</li>
+							<li>&raquo; <strong>Submenu Hover Color</strong>: You can chenge color of Submenu when hover.
+							</li>
+							<li>&raquo; <strong>Submenu Border Color</strong>: You can change color of Submenu Border.
+							</li>
+						</ul>
+					</li>	
+                </ul>
+				
+            </section>
+
+            <section id="typography">
+                <h3>Typography</h3>
+				 <hr class="notop">
+                <p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Typography</strong> => click on <strong>Add New Typography</strong> button to add new typography for new parts
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/theme-typo.jpg" alt="" />
+                </p>
+                <ul>
+
+                    <li>&raquo; <strong>Title</strong>: Enter the title for the part you want to change typography. For example, enter "Menu Typography" to add typography for Menu.
+                    </li>
+                    <li>&raquo; <strong>Select</strong>: Enter class or ID of elements you want to change typography.
+                    </li>
+                    <li>&raquo; <strong>Font Family</strong>: Choose the font you want.
+                    </li>
+                    <li>&raquo; <strong>Font Size</strong>: Enter font size (by pixel), it's optional.
+                    </li>
+                    <li>&raquo; <strong>Line Height</strong>: Enter line height (by pixel), it's optional.
+                    </li>
+                    <li>&raquo; <strong>Custom CSS</strong>: Custom CSS for this element, it's optional.
+                    </li>
+                </ul>
+                <p>Click on <strong>Save</strong> button to save any your changes.
+                </p>
+            </section>
+
+            <section id="social">
+                <h3>Social</h3>
+				 <hr class="notop">
+                <p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Social</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/social.png" alt="" />
+                </p>
+                <p>AmyMovie totally integrates with Social networks. You can add social links (Facebook, Twitter, Google plus, Pinterest). Click on Save button to save any your change
+                </p>
+            </section>
+
+           
+
+            <section id="media">
+                <h3>Media</h3>
+				 <hr class="notop">
+                <p>Media section allows you to add new image size used for Image Size option.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Media</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/media.png" alt="" />
+                </p>
+                <h4><strong>How to add new Image size</strong></h4>
+                <ul>
+
+                    <li>&raquo; <span class="span-style1">Step 1</span>: From Wordpress Admin site => <strong>AmyMovie</strong> =>
+                        <strong>Media</strong>
+                    </li>
+                    <li>&raquo; <span class="span-style1">Step 2</span>: Click on <strong>Add New Image Size</strong> button to add new size. A list of options will appear.
+                    </li>
+                    <li>
+                        <p>&raquo; <span class="span-style1">Step 3</span>: Enter size name to help you easy to use.</p>
+                        <p>For example: if you want to create new size for images at topbar position, you can create a size name is “topbar”
+                        </p>
+                    </li>
+                    <li>
+                        <p>&raquo; <span class="span-style1">Step 4</span>: Enter the width/ height values for image as you want (unit: pixel) at Width & Height option.</p>
+                        <p>Crop option: If you choose On, the image will be cropped when its original size is larger than the custom image size you choose.
+                        </p>
+                    </li>
+                    <li>&raquo; <span class="span-style1">Step 5</span>: Click on Save button to save any your change, click on Remove button to delete that size
+                    </li>
+                </ul>
+            </section>
+
+            <section id="css">
+                <h3>Custom CSS & Js</h3>
+                <p>This option is optional. If you have coding knowledge, you can custom CSS and JS by yourself.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Custom CSS & Js</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/custom.png" alt="" />
+                </p>
+            </section>
+			
+			
+            <section id="content">
+                <h3>Demo Content</h3>
+				 <hr class="notop">
+                <p>This option allows you to install or uninstall demo content by some clicks.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Demo Content</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/install.png" alt="" />
+                </p>
+				<p>You can visit <strong>Demo Installation</strong> to get the detail guide for this part.
+				</p>
+            </section>
+			
+			 <section id="imdb">
+                <h3>IMDb Import</h3>
+				 <hr class="notop">
+                <p>You can be easy and quick to import movie data from IMDb site. At IMDb Import section, you will enter your API key from  "http://www.myapifilms.com/token.do"
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>IMDb Import</strong>.
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/import.png" alt="" />
+                </p>
+				<p>Please go to " http://www.myapifilms.com/token.do" to get your API key and note that. each IP can get one API key only.
+				</p>
+				
+			
+				
+            </section>
+			
+
+            <section id="howto">
+                <h3>How To</h3>
+                <hr class="notop">
+				<p>This section guildes all the things you need to create for your movie websites. Here you will learn how to create new cinemas, actors, directors, genres, movies, blog posts, menu,... and how to set up a homepage.
+				</p>
+				
+            </section>
+			
+			 <section id="imdb_importer" class="page-header">
+              
+                <h3>How To Import Movies By Using IMDb Importer Function</h3>
+				 <hr class="notop">
+				 <p>With <strong>IMDb Import</strong> feature, you are easy and quick to import movie data from IMDb website.</p>
+			
+				<ul>
+					<li><p>&raquo; <span class="span-style1">Step 1</span>: From <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>IMDb Importer</strong>, enter your API key => Click on <strong>Save</strong> button.</p>
+                    </li>
+                    <li><p>&raquo; <span class="span-style1">Step 2</span>: From <strong>Dashboard</strong> => <strong>Movies</strong> => clicl on <strong>Add or Import IMDB button</strong></p>
+						 <p>
+							<img class="fullwidth" src="images/imagedoc/image/imdb-new.jpg" alt="" />
+						</p>
+                    </li>
+                    <li><p>&raquo; <span class="span-style1">Step 3</span>: Click on <strong>Import IMDB Movie</strong> button.</p>
+						<p>
+							<img class="fullwidth" src="images/imagedoc/image/imdb-import.jpg" alt="" />
+						</p>
+                    </li>
+             
+                    <li><p>&raquo; <span class="span-style1">Step 4</span>: Enter <strong>IMDb Movie URL</strong> from "http://www.imdb.com".</p>
+						<p>
+							<img class="fullwidth" src="images/imagedoc/image/imdb-id.jpg" alt="" />
+						</p>
+					</li>
+					<li>&raquo; <span class="span-style1">Step 6</span>: a popup will appear to inform the movie added, please click on <strong>Ok</strong> button. You will see the imported movie at movie list.
+                    </li>
+					
+                </ul>
+			</section>
+
+            <section id="cinema" class="page-header">
+              
+				
+                <h3>How To Add New Cinemas</h3>
+				 <hr class="notop">
+                <p>Cinemas will display on the movie page, showtime page and on the single cinema page.
+                </p>
+                <ul>
+                    <li>&raquo; On the movie page, cinema will be listed with other movie information.
+                    </li>
+                    <li>&raquo; On the showtime page, visitors can select one movie and one cinema to know the exact time that movie will show on that cinema.
+                    </li>
+                    <li>&raquo; On the single cinema page, this displays the cinema information (short description, gallery, URL website, location, google map,..) and the list of movies will be shown at that cinema.
+                    </li>
+
+                </ul>
+                <p>From <strong>Dashboard</strong> => <strong>Cinema</strong>, you will learn how to add new cinemas.
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/cinema.jpg" alt="" />
+                </p>
+                <ul>
+
+                    <li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Title</strong>: Enter the cinema’s name.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Description</strong>: Enter the short description about the cinema.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Discussion</strong>: Tick on the box of Allow Comment to allow visitors comment on the Cinema Detail page.
+                    </li>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_4.png" alt=""/> Cinema Detail</strong>
+                        </p>
+                        <ul>
+                            <li>&raquo; <strong>Banner</strong>: Click on <strong>Add Image</strong> button to select an image from the library or upload an image from your local devices.
+                            </li>
+                            <li>&raquo; <strong>Gallery</strong>: Click on <strong>Add Gallery</strong> button to select images from library or upload images from your local devices. Please note that you can add some images at the same time.
+                            </li>
+                            <li>&raquo; <strong>Address</strong>: Enter the cinema’s address.
+                            </li>
+                            <li>&raquo; <strong>Phone</strong>: Enter the cinema’s phone.
+                            </li>
+                            <li>&raquo; <strong>Website</strong>: Enter the cinema’s website.
+                            </li>
+                            <li>&raquo; <strong>Email</strong>: Enter the cinema’s email.
+                            </li>
+                            <li>&raquo; <strong>Google Map Iframe</strong>: Follow the instruction below to know how to get your Google Map Iframe.
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <p>After all, click on <strong>Publish</strong> button.
+                </p>
+                <p>You can see the demo of Cinema page detail <strong><a href="http://outsource.extstore.com/movie/amy_cinemas/grand-seats/">here</a></strong>
+                </p>
+            </section>
+
+            <section id="maps">
+                <h3>How to get Google Map Iframe for Cinema’s location</h3>
+				 <hr class="notop">
+                <ul>
+                    <li>&raquo; <span class="span-style1">Step 1</span>: Go to https://www.google.com/maps
+                    </li>
+                    <li>&raquo; <span class="span-style1">Step 2</span>: Find the location of the cinema.
+                    </li>
+                    <li>
+                        <p>&raquo; <span class="span-style1">Step 3</span>: Click on Share button, a popup will appear, then choose Embed maps => copy the iframe code on the box.</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/cinema-map.jpg" alt="" />
+                        </p>
+                    </li>
+                    <li>&raquo; <span class="span-style1">Step 4</span>: Paste <strong>Iframe Code</strong> at the <strong>Google Map Iframe</strong> option.
+                    </li>
+                </ul>
+                <p>Click on Update button to update your changes. </p>
+
+            </section>
+
+            <section id="genre">
+                <h3>How To Add New Genres</h3>
+				 <hr class="notop">
+                <p>Genres will display on the movie page and on the genre page.
+                </p>
+                <ul>
+                    <li>&raquo; On the movie page, genres will be listed with other movie information.
+                    </li>
+                    <li>&raquo; On the Genre page, this display the movies belong to that genre. You can change the global genre page layouts with sidebar or no sidebar and decide to display movies with list style or grid style at the movie section of theme options
+                    </li>
+                </ul>
+                <p>From <strong>Dashboard</strong> => <strong>Movie</strong> => <strong>Genres</strong> => Click on <strong>Add New Genre</strong> button. If you import movie from IMDb website, the genres will be imported and you can edit genre settings by yourself.
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/genre.jpg" alt="" />
+                </p>
+				  <ul>
+                    <li>&raquo; <strong>Name</strong>: Enter/ Edit genre name.
+                    </li>
+                    <li>&raquo; <strong>Slung</strong>: The “slug” is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.
+                    </li>
+					<li>&raquo; <strong>Parent</strong>: Choose the genre parent
+                    </li>
+                    <li>&raquo; <strong>Description</strong>: Enter the genre description (optional).
+                    </li>
+					<li>&raquo; <strong>Genre Sidebar</strong>: Choose sidebar layout for genre page (right sidebar, left sidebar or no sidebar). If you choose "Global", the data will get from "Movie" section of "Theme Options"
+                    </li>
+                    <li>&raquo; <strong>Genre Sidebar Widget</strong>: Shows if you didn't choose "Global" for "Genre Sidebar" option. Choose sidebar for this genre page.
+                    </li>
+					 <li>&raquo; <strong>Genre Layout</strong>: Choose layout of movies in this genre page (grid or list layout).
+                    </li>
+					<li>&raquo; <strong>Grid Layout</strong>: Shows if you choose "Grid" for "Genre Layout" option. Decide the style for grid layout
+                    </li>
+                    <li>&raquo; <strong>Columns</strong>: Shows if you choose "Grid" for "Genre Layout" option. Choose the number of columns for grid layout.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="actor">
+                <h3>How To Add New Actors</h3>
+				 <hr class="notop">
+                <p>Actors will display on the movie page and on the actor page.
+                </p>
+                <ul>
+                    <li>&raquo; On the movie page, actors will be listed with other movie information.
+                    </li>
+                    <li>&raquo; On the actor page, this display the actor’s detail information (avatar, banner, short description, birthday, …) and the list of movies played by that actor.
+                    </li>
+                </ul>
+                <p>From <strong>Dashboard</strong> => <strong>Movies</strong> => <strong>Actors</strong>, you can add some images and information of actors, which will display on Actor Detail page.
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/actor.jpg" alt="" />
+                </p>
+                <ul>
+
+                    <li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Name</strong>: Enter the actor’s name.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Slug</strong>: The slug is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens, it will be generated automatically from the actor’s name.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Parent</strong>: You can choose None for this option.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_4.png" alt=""/> Description</strong>: Enter the description about the actor, and this information will display on Biography part on the frontend.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_5.png" alt=""/> Avatar</strong>: Click on <strong>Add Image</strong> button to add the actor’s avatar.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_6.png" alt=""/> Banner</strong>: Click on <strong>Add Image</strong> button to add banner for the actor detail page.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/7.png" alt=""/> Summary</strong>: Enter the summary of the actor.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/8.png" alt=""/> Birthday</strong>: Enter the actor’s birthday.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/9.png" alt=""/> Birth Place</strong>: Enter the birthplace of the actor.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/10.png" alt=""/> Gender</strong>: Choose gender of the actor: Male or Female.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/11.png" alt=""/> Nationality</strong>: Enter the actor’s nationality.
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id="director">
+                <h3>How To Add New Director</h3>
+				 <hr class="notop">
+                <p>Directors will display on the movie page and on the director page
+                </p>
+                <ul>
+                    <li>&raquo; On the movie page, directors will be listed with other movie information.
+                    </li>
+                    <li>&raquo; On the director page, this display the actor’s detail information (avatar, banner, short description, birthday, …) and the list of movies directed by that director.
+                    </li>
+                </ul>
+                <p>From <strong>Dashboard</strong> => <strong>Movies</strong> => <strong>Directors</strong>. The settings for a director’s information is total the same as actor’s. Please follow <strong>Actors</strong> section if you need the detail explanation
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie-director.jpg" alt="" />
+                </p>
+            </section>
+
+            <section id="new_movie">
+                <h3>How To Add New Movies Manually</h3>
+				 <hr class="notop">
+                <p>In AmyMovie, you will have two different types of options to customize the movies.
+                </p>
+                <ul>
+                    <li>&raquo; <strong>Global options</strong>: These options will be applied to all movie pages. You can override these setting for each movie basic. To use these options, please from Dashboard => AmyMovie => Movie => General part.
+                    </li>
+                    <li>&raquo; <strong>Individual options</strong>: You can use individual options for each movie. By following the guide below, you will learn how to use individual options for each movie.
+                    </li>
+                </ul>
+                <p>From <strong>Dashboard</strong> => <strong>Movies</strong> => click on <strong>Add or Import IMDB</strong> button to add new movie.
+                </p>
+				<p>Please note that before creating a new movie, you need to create the data of cinemas, directors, actores, genres first.</p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie.jpg" alt="" />
+                </p>
+                <ul>
+
+                    <li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Name</strong>: Enter the movie’s name.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Synopsis</strong>: Enter the brief of the movie.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Discussion</strong>: Tick on <strong>Allow Comments</strong> so that users can comment at the Movie Detail page.
+                    </li>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_4.png" alt=""/> Enter Movie Detail Information</strong>
+                        </p>
+                        <ul>
+                            <li>&raquo; <strong>Release</strong>: Click on the box and choose the release date of the movie from the calendar.
+                            </li>
+                            <li>&raquo; <strong>Duration</strong>: Enter the duration of the film (by minutes).
+                            </li>
+                            <li>&raquo; <strong>IMDB rating</strong>: Find IMDB rating for the movie at: http://www.imdb.com/ then enter to the box.
+                            </li>
+                            <li>&raquo; <strong>MPAA</strong>: MPAA is Motion Picture Association of America used in the United States to rate the suitability of films' themes and content for certain audiences. The ratings are currently used by the MPAA's voluntary system are: G, PG, PG-13, R, NC-17
+                            </li>
+                            <li>&raquo; <strong>Language</strong>: Enter the language of the movie.
+                            </li>
+                            <li>&raquo; <strong>Gallery</strong>: Click on Add Gallery button to select images from the library or upload images from your local devices.
+                            </li>
+                            <li>&raquo; <strong>Trailer</strong>: Click on Add New Trailer button to add new trailer from Youtube or Vimeo. You can add as many trailers as you want.
+                            </li>
+
+                        </ul>
+                        <p>The Movie Detail page will show the number of photos and the numbers of videos help visitors easy to follow.
+                        </p>
+                    </li>
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_5.png" alt=""/> Cinema Events</strong>
+                        </p>
+                        <p>This section allows you to select the cinema which will show this film. You can add as many cinemas for the movie as you can, and at each cinema, you can add showing date and time.
+                        </p>
+                        <p>Click on <strong>Add New Cinema</strong> button, and you will see some options like the image below
+                        </p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/movie-cinema.jpg" alt="" />
+                        </p>
+                        <ul>
+                            <li>&raquo; <strong>Cinema</strong>: Click on Arrow Down button to select a cinema from the list.
+                            </li>
+                            <li>&raquo; <strong>Date 1</strong>: Click on the box and select a date from the calendar.
+                            </li>
+                            <li>&raquo; <strong>Hours in Date 1</strong>: Enter starting time of the film in that date, for example: 09h40, 12h30, 15h20…...
+                            </li>
+
+                        </ul>
+                        <p>You will config like the same for Date 2. If you want to add new cinema for the movie, please continue to click on Add New Cinema button and config.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><strong><img src="images/imagedoc/image/icon_6.png" alt=""/> Movie Rating</strong>
+                        </p>
+                        <p>If you choose <strong>Off</strong> for <strong>Custom Rating</strong> option, the rating will be calculated based on the rate of visitors on the frontend.
+                        </p>
+                        <p>If you choose <strong>On</strong> for C<strong>ustom Rating</strong> option, the admin can edit the rate at the backend
+                        </p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/movie-rating.jpg" alt="" />
+                        </p>
+                        <ul>
+                            <li>&raquo; <strong>Turn rating</strong>: Enter the number of rates for the movie.
+                            </li>
+                            <li>&raquo; <strong>Total Points</strong>: Enter the total points for the movie.
+                            </li>
+                        </ul>
+                        <p>Please note that <strong>Average result</strong> = <strong>Total Points</strong> over <strong>Turn rating</strong>
+                        </p>
+                        <p>The maximum of <strong>Average result</strong> is 5 (5 stars for a movie) so you need to calculate Turn rating and Total Points for a suit.
+                        </p>
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/7.png" alt=""/> Genres</strong>: Tick on the box to select genres of the movie.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/8.png" alt=""/> Actors</strong>: Tick on the box to select actors for the movie
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/9.png" alt=""/> Directors</strong>: Tick on the box to select directors for the film
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/10.png" alt=""/> Movie Banner</strong>: Click on <strong>Add Image</strong> button to select an image from library or upload an image from your local devices
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/11.png" alt=""/> Movie Poster</strong>: Click on <strong>Add Image</strong> button to select an image from library or upload an image from your local devices
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/12.png" alt=""/> Movie Sidebar</strong>: You can decide the interface of Movie Detail page with <strong>Left Sidebar</strong>,
+                        <strong>Right Sidebar</strong> or <strong>Full Width</strong>. Click on <strong>Choose a Custom Sidebar</strong> to select a sidebar from the list.
+                    </li>
+                </ul>
+                <p>After all, click on <strong>Publish</strong> button to publish this movie.
+                </p>
+
+            </section>
+
+            <section id="post">
+                <h3>Post Settings</h3>
+				 <hr class="notop">
+                <h4><strong>How To Add New Categories</strong></h4>
+                <p>From Dashboard => Posts => Categories => Enter the category’s name at the Name option => click on Add New Category button to save and if you want you can continue to add new categories. You can explore the useful information for categories at <strong><a href="https://codex.wordpress.org/Manage_Categories_SubPanel">Wordpress Codex</a></strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/category.jpg" alt="" />
+                </p>
+                <p></p>
+                <p></p>
+                <p></p>
+				<h4><strong>How To Add New Tags</strong></h4>
+                <p>From Dashboard => Posts => Tags => Enter the tag’s name at the Name option => click on Add New tag button to save and if you want you can continue to add new tags. 
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/howtotag.png" alt="" />
+                </p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <h4><strong>How To Add New Posts</strong></h4>
+                <p>You can create as many blog posts for your movie website as you want. From <strong>Dashboard</strong> => <strong>Posts</strong> => A<strong>dd New</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/post.jpg" alt="" />
+                </p>
+                <ul>
+
+                    <li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Title</strong>: Enter the post’s title.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Content</strong>: Enter the post’s content.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Format</strong>: Select one of the three Post Formats (Standard, Image, Video). Post formats is a value added to WordPress posts which allow theme developers to define the visual appearance of a post to help visitors can realize those posts are images or video or normal articles.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_4.png" alt=""/> Categories</strong>: Choose Categories for the post.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_5.png" alt=""/> Tags</strong>: Choose Tags for the post.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_6.png" alt=""/> Featured Images</strong>: Featured Image is like a post thumbnails. It is necessary to add featured image to each post. Click on <strong>Set Featured Image</strong> link to select an image from the library or upload an image from your local devices
+                    </li>
+
+                </ul>
+
+                <p></p>
+                <p></p>
+                <p></p>
+                <h4><strong>Recent Posts Settings</strong></h4>
+                <p>At the single post page, you can customize the global displaying of the related articles by category or tag. Please from <strong>Dashboard</strong> => <strong>AmyMovie</strong> => <strong>Blog</strong> => <strong>Recent Post</strong> section to learn how to set up the related articles part.
+                </p>
+            </section>
+
+            <section id="homepage">
+                <h3>How To Setup Homepage</h3>
+				 <hr class="notop">
+                <p>By default, WordPress sets blog page as a home page for your website. Almost of time, it is not what you want, so in this guide, you can learn how to create and set up a special homepage for your site.
+                </p>
+                <h4><span class="span-style1">Step 1</span>: Create a new page</h4>
+                <p>At WordPress admin site, from <strong>Dashboard</strong> => <strong>Pages</strong> => Click on
+                    <strong>Add New</strong> button to create a new page
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/homepage-step1.jpg" alt="" />
+                </p>
+                <p></p>
+                <p></p>
+                <h4><span class="span-style1">Step 2</span>:  Enter the page title => setup Page Builder content by using <a href="https://vc.wpbakery.com/video-tutorials/">WPBakery Page Builder</a></h4>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/homepage.png" alt="" />
+                </p>
+                <p><strong>How to use WPBakery Page Builder at Amy Movie.</strong>
+                </p>
+                <p><strong>2.1. Row Settings</strong>
+                </p>
+                <ul>
+
+                    <li>
+                        <p><strong>&raquo; Row layout</strong>: <strong>WPBakery Page Builder</strong> helps you easy to create different layouts for your webpage by adding
+                            <strong>Row</strong> element. Click on <strong>Plus</strong> icon to add new element => choose <strong>Row</strong> element from the list, => select the row layout by hovering on this bar <img class="fullwidth" src="images/imagedoc/image/vc-custom.jpg" alt="" /> The row automatically breaks into columns according to the layouts you choose or custom.</p>
+                    </li>
+                    <li><strong>&raquo; Row Background</strong>: You can choose background color or background image for the row by clicking on edit button at this bar
+                        <img class="fullwidth" src="images/imagedoc/image/homepage-row-edit.jpg" alt="" />. Please visit <strong><a href="https://vc.wpbakery.com/video-academy/add-row-column-background-visual-composer-wordpress/">HERE</a></strong> if you are interested in setting row background
+                    </li>
+
+                </ul>
+
+                <p><strong>2.2. Add elements to build up a webpage</strong>
+                </p>
+                <p>With the column layout you choose, click on Plus icon to add elements, you can add available elements from WPBakery Page Builder or add Amy Movie shortcodes made by AmyTheme. You will know how to use AmyMovie shortcodes at AmyMovie Shortcodes part below.</p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/hpd1.png" alt="" />
+                </p>
+                <p><strong>2.3 Drag & drop to reorder rows and elements</strong>
+                </p>
+                <p>You can easily drag and drop rows and elements to any position as you want.
+                </p>
+                <p></p>
+                <p></p>
+                <h4><span class="span-style1">Step 3</span>: Page Options</h4>
+                <p>Page Options section allows you to add Page title bar with either image background or color background.
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/homepage-option.jpg" alt="" />
+                </p>
+                <ul>
+
+                    <li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Enable Page Title</strong>: Select On/ Off to enable/ disable Page title.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Title Position</strong>: Click on Arrow-down button to choose the title position (in the left/ right/ center)
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Title Background Image</strong>:Click on Add Image button to select an image from the library or upload an image from your local devices. Please note that: If you choose an image for this option, Title Background Color option will be invalid.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_4.png" alt=""/> Title Background</strong>: This option will be valid if Title Background Image option is empty. Click on Select Color button to select background color, you can edit its opacity.
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_5.png" alt=""/> Title Color</strong>: Click on Select Color button to select title color, you can edit its opacity.
+                    </li>
+
+                </ul>
+                <p>On the frontend, you can see the page title bar at the showtime page <strong><a href="http://outsource.extstore.com/movie/showtime/">HERE</a></strong>
+                </p>
+                <p></p>
+                <p></p>
+                <h4><span class="span-style1">Step 4</span>: Page Sidebar Model</h4>
+                <p>There are 4-page layouts to choose: Left Sidebar, Right Sidebar, Full Width, 100% Width
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/homepage-sidebar.jpg" alt="" />
+                </p>
+
+                <p>After all, click on <strong>Publish</strong> button.</p>
+				<p></p>
+                <p></p>
+                <h4><span class="span-style1">Step 5</span>: Set up Front Page</h4>
+                <p>From <strong>Dashboard</strong> => <strong>Settings</strong> => <strong>Reading</strong>, you can set homepage by following the steps of the screenshot below
+                </p>
+
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/homepage-front.jpg" alt="" />
+                </p>
+            </section>
+
+            <section id="menu">
+                <h3>Menu Settings</h3>
+				 <hr class="notop">
+                <p>In general, you need to know how to create a new menu, how to add special posts, categories, pages, or custom links to the menu, need to know about menu structure and menu location. Wordpress gives you quite detailed information to reach these. You can experience at <strong><a href="https://codex.wordpress.org/WordPress_Menu_User_Guide">Wordpress Codex</a></strong>
+                </p>
+				<p>Please visit the GIF image below to lear how to add new menu.
+				</p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/vd-menu.gif" alt="" />
+                </p>
+				<p>On the front-end, you can see.
+				</p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/menu-front.jpg" alt="" />
+                </p>
+
+            </section>
+			<section id="permalink">
+                <h3>How to Custom Permalinks</h3>
+				 <hr class="notop">
+				<p> AmyMovie allows you to customize URL structures for your movie, cinema, actor, director, genre page</strong>
+                 </p>
+				<p>From <strong>Dashboard</strong> => <strong>Settings</strong> => <strong>Permalinks</strong> => <strong>Amy Movie Custom Permalinks</strong> section.</p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/permalink.jpg" alt="" />
+                </p>
+             
+                        
+                        <p>If you want, you may enter custom structures for your movie, cinema, actor, director, genre URL.
+                        </p>
+                        <p>For example, using “movies” as your movie base at <strong>Single Movie Slug</strong> option would make your movie links like <strong>{root}/movie/moviename/</strong>. If you leave these blank the defaults will be used.
+                        </p>
+                        <p><strong>Please note that: All of the slugs you use at these 4 options must be different from the slugs of all pages.</strong>
+                        </p>
+                    
+            </section>
+			
+			 <section id="user">
+                <h3>How to custom User Login page </h3>
+				 <hr class="notop">
+                <p><strong>Amy User Settings</strong> section allows you to enable/ disable the custom login page in a popup or in a page with sidebar or without sidebar and add Social login in that page.
+                </p>
+				<p>From <strong>Dashboard</strong> => <strong>Users</strong> => <strong>Amy User Settings</strong>
+				<ul>
+					<li><p><strong>1. General Settings</strong></p>
+						<p>
+							<img class="fullwidth" src="images/imagedoc/image/user-general.jpg" alt="" />
+						</p>
+						 <ul>
+							<li>
+								<p><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> General</strong>
+								</p>
+								<ul>
+									<li>&raquo; <strong>Enable Custom Login</strong>: If you choose <strong>Off</strong>, the Default WordPress Login page will be enabled. If you choose <strong>On</strong>, the Custom AmyMovie Login page will be enabled. Please note that if you choose
+									<strong>Off</strong> for Enable Custom Login option, all of the options below will be invalid.
+									</li>
+									<li>&raquo; <strong>Login Redirect URL</strong>: Enter the URL into the box so that after users login, they will redirect to that link.
+									</li>
+
+								</ul>
+
+							</li>
+							
+							<li>
+								<p><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Page User Settings</strong>: This section allows you to decide the layout of login page with sidebar or without sidebar.
+								</p>
+								<ul>
+									<li>&raquo; <strong>Page User Sidebar</strong>: Click on <strong>Arrow-down</strong> button to decide the layout of the custom login page with right sidebar, left sidebar or no sidebar.
+									</li>
+									<li>&raquo; <strong>Page User Sidebar Widget</strong>: Click on <strong>Arrow-down</strong> button to choose a sidebar from the list.
+									</li>
+
+								</ul>
+
+							</li>
+							
+
+							<li><p><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Popup Setting</strong>: This section allows you to decide using login popup or login page.</p>
+								<ul>
+									<li>&raquo; <strong>Use Popup</strong>: Choose <strong>On</strong> to enable <strong>Login Popup</strong>, choose <strong>Off</strong> to enable <strong>Login Page</strong>.
+									</li>
+									
+								</ul>
+								
+							</li>
+						</ul>
+					</li>
+					
+					<li><p><strong>2. Social Settings</strong></p>
+						<p>
+							<img class="fullwidth" src="images/imagedoc/image/user-social.jpg" alt="" />
+						</p>
+						<p><strong>Enable Social Login</strong>: Select <strong>On/ Off</strong> to enable/ disable social login module (Facebook, Google Plus, Twitter) on the custom login page.</p>
+                        <p><strong>Please note that if you choose Off for Enable Social Login option, all of the options below will be invalid.</strong>
+                        </p>
+						 <ul>
+							<li>
+								<p><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Facebook Login Settings</strong>
+								</p>
+								<ul>
+									<li>&raquo; <strong>Facebook Login</strong>: Select On/ Off to enable/ disable Facebook login icon on the custom login page.
+									</li>
+									<li>&raquo; <strong>Facebook APP ID</strong>: Click on <strong>Where I can get this info</strong> link to know about how to get Facebook APP ID, then copy the IP on the box.
+									</li>
+
+								</ul>
+
+							</li>
+							<li>
+								<p><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Google Plus Login Settings</strong>
+								</p>
+								<ul>
+									<li>&raquo; <strong>Google Login</strong>: Select On/ Off to enable/ disable Facebook login icon on the custom login page.
+									</li>
+									<li>&raquo; <strong>Google App ID</strong>: Click on <strong>Where I can get this info</strong> link to know about how to get Google Plus APP ID, then copy the IP on the box.
+									</li>
+									<li>&raquo; <strong>Google Client ID</strong>: Click on <strong>Where I can get this info</strong> link to know about how to get Google Plus Client ID, then copy the IP on the box.
+									</li>
+
+								</ul>
+
+							</li>
+
+							<li>
+								<p><strong><img src="images/imagedoc/image/icon_3.png" alt=""/> Twitter Login Settings</strong>
+								</p>
+								<ul>
+									<li>&raquo; <strong>Twitter Login</strong>: Select On/ Off to enable/ disable Twitter login icon on the custom login page.
+									</li>
+									<li>&raquo; <strong>Consumer Key</strong>: Click on <strong>Where I can get this info</strong> link to know about how to get Consumer Key, then copy that key on the box
+									</li>
+									<li>&raquo; <strong>Consumer Secret</strong>: Click on <strong>Where I can get this info</strong> link to know about how to get Consumer Secret, then copy/ paste on the box.
+									</li>
+
+								</ul>
+
+							</li>
+						</ul>
+					</li>
+					
+				</ul>
+                   
+            </section>
+			
+			
+
+            <section id="amyshortcode" class="page-header">
+                <h3>AmyMovie Shortcodes</h3>
+                <hr class="notop">
+				<p>This section shows you the detail setting of each Amy Movie shortcode. It's very useful if you want to use shortcode to build up your own webpage.
+				</p>
+            </section>
+
+            <section id="amy_tabs">
+                <h3>Amy Tabs</h3>
+				 <hr class="notop">
+                <p>Amy Tabs allows you to easily add and edit your tabs and you can add elements into each tabs as you wish. Follow the steps below to learn how Amy Tabs works</p>
+                <ul>
+                    <li>
+                        <h4>&raquo; <span class="span-style1">Step 1</span>: <strong>Amy Tabs General setting</strong></h4>
+                        <p>At this step, you can learn how to set the position of tab and choose active tab</p>
+                        <p>From the green bar <span><img src="images/imagedoc/image/amy-tab-green-bar.png" alt="" /></span> => click on <span><img src="images/imagedoc/image/button-edit.png" alt="" /> </span> button to make general setting on Tab</p>
+                        <ul>
+                            <li>
+                                <p><strong>1.1. General Setting</strong>
+                                </p>
+                                <p>
+                                    <img src="images/imagedoc/image/amy-tab_general.jpg" alt="" />
+                                </p>
+                                <ul>
+                                    <li>&raquo; <strong>Tab Nav Block</strong>: You can set the position of tab on block. There are two positions: <strong>Default</strong> (the tabs will be in navigation of the block); <strong>Left</strong> (the tab will be on the left of the block content)
+                                    </li>
+                                    <li>&raquo; <strong>Active Tab Nav</strong>: You can decide what tab will be active tab (Eg: if you enter 2 for this option, the tab #2 will appear by default). If this box is empty, the tab # 1 will be shown as Active Tab
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p><strong>1.2. Extra Setting</strong>: This option is optional allows you to add extras ID or extras class for your tabs</p>
+                                <p>
+                                    <img src="images/imagedoc/image/amy-tab_extra.jpg" alt="" />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h4>&raquo; <span class="span-style1">Step 2</span>: <strong>Child Tab settings</strong></h4>
+                        <p>You can edit tab name or add element into child tabs at yellow bar</p>
+                        <ul>
+                            <li><strong>2.1. Edit tab name</strong>
+                                <p>
+									Click on tab you want to edit => click <span><img src="images/imagedoc/image/button-edit-yellow.jpg" alt="" /></span> button at yellow bar , a popup will appear and you can change the tab name as you want
+                                </p>
+                                <p>
+                                    <img src="images/imagedoc/image/amy-tab_edit-name-1.jpg" alt="" />
+                                </p>
+                            </li>
+
+                            <li><strong>2.2. Add content for each tab</strong>
+                                <p>Each tab will show diferent content. To do this: click on the tab you want to add elements and click <strong>Plus</strong> icon at the yellow bar to choose elements like the image below
+                                </p>
+                                <p>
+                                    <img src="images/imagedoc/image/amy-tab_add-element.jpg" alt="" />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>&raquo; <span class="span-style1">Step 3</span>: <strong>Click Save button to save any your change</strong></h4>
+                </ul>
+				<p>Please visit the GIF image helow to know about the tab settings.
+				</p>
+				 <p>
+                                    <img src="images/imagedoc/image/amy-tabs.gif" alt="" />
+                                </p>
+				
+            </section>
+
+            <section id="amy_blog">
+                <h3>Amy Movie Blog</h3>
+				 <hr class="notop">
+                <p>Amy Movie Blog allows you to display your blog posts with 2 nice styles and order the posts as you want.
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/blogset.png" alt="" />
+                </p>
+                <p><strong>Blog layout 1, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-blog-f1.jpg" alt="" />
+                </p>
+                <p><strong>Blog layout 2, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-blog-f2.jpg" alt="" />
+                </p>
+            </section>
+
+            <section id="amy_carousel">
+                <h3>Amy Movie Carousel</h3>
+				 <hr class="notop">
+                <p>Amy Movie Carousel allows you to show multiple movies at once, it’s unlike normal slide show.
+                </p>
+                <p><h4><strong>1, Query Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/carouselquery.png" alt="" />
+                </p>
+                <p><h4><strong>2. Layout Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/carousellayout.png" alt="" />
+                </p>
+                <p><h4><strong>3. Slide Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/carouseloption.png" alt="" />
+                </p>
+                <p><strong>On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-carousel-frontend.jpg" alt="" />
+                </p>
+
+            </section>
+
+            <section id="amy_grid">
+                <h3>Amy Movie Grid</h3>
+				 <hr class="notop">
+                <p>Amy Movie Grid allows you to display movies by Grid styles. This shortcode offers 4 nice layouts will make your movie site various and beautiful..
+                </p>
+                <p><h4><strong>1, Query Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/gridquery.png" alt="" />
+                </p>
+                <p><strong><h4>2. Layout Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/girdlayout.png" alt="" />
+                </p>
+                <p><strong>Grid Layout 1: On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-grid-layout1.jpg" alt="" />
+                </p>
+                <p><strong>Grid Layout 2: On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-grid-layout2.jpg" alt="" />
+                </p>
+                <p><strong>Grid Layout 3: On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-grid-layout3.jpg" alt="" />
+                </p>
+                <p><strong>Grid Layout 4: On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-gird-layout4.jpg" alt="" />
+                </p>
+				 <p><h4><strong>3. Filter Options</strong></h4>
+                </p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/girdoption.png" alt="" />
+                </p>
+                <p><strong>Filter Style 1 and Sort By module: On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-grid-filter1.jpg" alt="" />
+                </p>
+                <p><strong>Filter Style 2 and Sort By module: On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-grid-filter2.jpg" alt="" />
+                </p>
+
+            </section>
+
+            <section id="amy_list">
+                <h3>Amy Movie List</h3>
+				 <hr class="notop">
+                <p>Amy Movie Líst allows you to show movies under the list style.
+                </p>
+                <p><h4><strong>1, Query Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/listquery.png" alt="" />
+                </p>
+                <p><h4><strong>2. Layout Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/listlayout.png" alt="" />
+                </p>
+				<p><strong>Showtime Type</strong>
+				</p>
+				<ul>
+                                    <li>&raquo; <strong>Only Today</strong>: Allows you to show the showtime of movies of today only.
+                                    </li>
+                                    <li>&raquo; <strong>All Days</strong>: Allows you to show the movie showtime of all days
+                                    </li>
+									<li>&raquo; <strong>Coming Soon</strong>: Allows you to show the movie showtime in the future (after today)
+                                    </li>
+                                </ul>
+				 <p><strong><h4>3. Filter Options</strong></h4>
+                </p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/listoption.png" alt="" />
+                </p>
+                <p><strong>On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-list-frontend.jpg" alt="" />
+                </p>
+
+            </section>
+
+            <section id="amy_metro">
+                <h3>Amy Movie Metro Gallery</h3>
+				 <hr class="notop">
+                <p>Amy Movie Metro Gallery allows you to add a gallery with a unique concept, and when you click on an image, it will display on the popup.
+                </p>
+                <p><strong>At the backend you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/metrogallery.png" alt="" />
+                </p>
+                <p><strong>On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-metro-frontend.jpg" alt="" />
+                </p>
+
+            </section>
+
+            <section id="amy_rate">
+                <h3>Amy Movie Rate List</h3>
+				 <hr class="notop">
+                <p>Amy Movie Rate Líst allows you to show the list of movies with rate information.
+                </p>
+                <p><h4><strong>1. General Settings</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/rategeneral.png" alt="" />
+                </p>
+                <p><h4><strong>2. Layout Options</strong></h4>
+                </p>
+				
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/ratelayout.png" alt="" />
+                </p>
+                <p><strong>On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-rate-frontend.jpg" alt="" />
+                </p>
+
+            </section>
+
+            <section id="amy_search">
+                <h3>Amy Movie Search</h3>
+				 <hr class="notop">
+                <p>Amy Movie Search allows you to add search module to anywhere of your webpage. This shortcode helps users easy to search movie, cinema, actor or director.
+                </p>
+                <p><strong>At the backend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/search.png" alt="" />
+                </p>
+
+                <p>If you choose <strong>Off</strong> for <strong>Show Search Type</strong> option, visitors can search movie by the movie’s name only at Search module. On the frontend you can see:
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-seach-off.jpg" alt="" />
+                </p>
+                <p><strong>If you choose <strong>On</strong> for <strong>Show Search Type</strong> option, visitors can search Cinema, Actor and Director by enter their name at Search module. On the frontend you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-search-on.jpg" alt="" />
+                </p>
+                <p>Both <strong>Extra Class</strong> and <strong>Extra ID</strong> opttions are optional.
+                </p>
+
+            </section>
+
+            <section id="amy_showtime">
+                <h3>Amy Movie Showtime</h3>
+				 <hr class="notop">
+                <p>Amy Movie Showtime allows visitors easy to find the showing time of a particular movie in a particular cinema by some clicks only. This shortcode includes one option and it is optional. If you have coding knowledge, you can add some extra class for this shortcode.
+                </p>
+                <p><strong>At the backend you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime.png" alt="" />
+                </p>
+				<p><strong>Showtime Type</strong>
+				</p>
+				<ul>
+                                    <li>&raquo; <strong>Only Today</strong>: Allows you to show the movies will be shown today at "Select A Movie" part and show those movie showtime of today only.
+                                    </li>
+                                    <li>&raquo; <strong>All Days</strong>: Allows you to show the movie showtime of all days
+                                    </li>
+									<li>&raquo; <strong>Coming Soon</strong>: Allows you to show the movies with both coming soon released date and coming soon showtime date at cinemas.
+                                    </li>
+                                </ul>
+
+                <p><strong>On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img src="images/imagedoc/image/amy-showtime-frontend.jpg" alt="" />
+                </p>
+                <p><span><img src="images/imagedoc/image/icon_1.png" alt="" /></span> Select a movie => <span><img src="images/imagedoc/image/icon_2.png" alt="" /></span> Select a cinema => <span><img src="images/imagedoc/image/icon_3.png" alt="" /></span> The Date & Time will show
+
+            </section>
+
+            <section id="amy_slide">
+                <h3>Amy Movie Slide</h3>
+				 <hr class="notop">
+                <p>Amy Movie Slide allows you to show one by one movie on the slide.
+                </p>
+                <p><h4><strong>1. Query Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/slidequery.png" alt="" />
+                </p>
+                <p><h4><strong>2. Layout Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/slidelayout.png" alt="" />
+                </p>
+                <p><h4><strong>3. Slide Options</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/slideoption.png" alt="" />
+                </p>
+                <p><strong>On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-slide-frontend.jpg" alt="" />
+                </p>
+
+            </section>
+			
+			<section id="amy_community">
+                <h3>Community Shortcode</h3>
+				 <hr class="notop">
+                <p><h4><strong>Community Setting</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/community_set.png" alt="" />
+                </p>
+				<p>Click on the Plus icon to add new items, then click on the arrow icon to edit the item.</p>
+						   <p>
+							<img class="fullwidth" src="images/imagedoc/image/amy-community-2.jpg" alt="" />
+							</p>
+				<p><strong>On the front-end you can see</strong></p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-community-front.jpg" alt="" />
+				</p>
+
+            </section>
+			
+			<section id="amy_gallery_carousel">
+                <h3> Gallery Carousel Shortcode</h3>
+				<p>Gallery Carousel shortcode supports you to display the image gallery in the carousel slide. 
+                </p>
+				 <hr class="notop">
+                <p><h4><strong>Gallery Carousel Setting</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/gallery_carousel_set.png" alt="" />
+                </p>
+				<p><strong>On the front-end, you can see</strong></p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-gallery-carousel-front.jpg" alt="" />
+                </p>
+
+            </section>
+			
+			<section id="amy_gallery_gird">
+                <h3>Gallery Gird Shortcode</h3>
+				<p>Gallery Grid shortcode helps to show the gallery in the grid layout. 
+                </p>
+				   <hr class="notop">
+                <p><h4><strong>Gallery Gird Setting</strong></h4>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/gallery_gird_set.png" alt="" />
+                </p>
+				<p><strong>On the front-end you can see</strong></p>
+               <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-gallery-grid-front.jpg" alt="" />
+                </p>
+
+            </section>
+			<section id="amy_heading">
+                <h3>Heading Shortcode </h3>
+				 <hr class="notop">
+                <p>Heading shortcode helps you easy to customize the block’s heading (the color, font size of title and subtitle). 
+                </p>
+				  	<h4><strong>1. General Settings</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/heading_general_set.png" alt="" />
+                </p>   
+					<h4><strong>2. Style Options</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/heading_style_set.png" alt="" />
+                </p> 
+				<p><strong>On the frontend you can see</strong>
+				</p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-heading-general-back.jpg" alt="" />
+                </p>
+			</section>
+			<section id="amy_movie_carousel1">
+                <h3>Movie Carousel 1 Shortcode </h3>
+				 <hr class="notop">
+				 <p>AmyMovie supports 3 movie carousel styles. And Movie Carousel 1 shortcode supports to display the movies in the carousel style #1. 
+                </p>
+				<h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_carousel1_query.png" alt="" />
+                </p>
+                
+               <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_carousel1_layout.png" alt="" />
+                </p> 
+                <ul>         
+                           <li>&raquo; <strong>Number Movies</strong>: Enter the number movies will show on the carousel.
+                            </li>
+                            <li>&raquo; <strong>Tooltip Type</strong>: Decide to use the dark tooltip or light tooltip or hide the tooltip.
+                            </li>
+							  <li>&raquo; <strong>Show button All</strong>: Select On/ Off to show/ hide the button ALL.
+                            </li>
+                            <li>&raquo; <strong>Button All Text</strong>: Shows if you choose <strong>On</strong> for <strong>Show Button All</strong> option. You can change the text of the button <strong>All</strong> here.
+                            </li>
+							 <li>&raquo; <strong>Button All Custom Link</strong>: Shows if you choose <strong>On</strong> for <strong>Show Button All</strong> option. Enter the link inserted to the button <strong>All</strong>.
+                            </li>
+							 <li>&raquo; <strong>Show Fields - Front</strong>: Choose the movie data fields will be shown before hovering on the movie poster.
+                            </li>
+							 <li>&raquo; <strong>Show General Fields - Back (Tooltip)</strong>: Firstly, you can enable/ disable the fields at <strong>Setting</strong> part of <strong>Movies</strong> section. Which fields are enabled at that <strong>Movie Custom Field</strong> part will appear on this option. Click on the box to decide which fields will show on the tooltip.
+                            </li>
+							 <li>&raquo; <strong>Show Custom Field - Back (Tooltip)</strong>: Released Date and Language are two default custom fields. And the other custom fields created at <strong>Movie Custom Fields</strong> section of <strong>Movie Settings</strong> will be displayed there. You can drag & drop to enable/ disable as well as changing the position of those fields on the tooltip.
+                            </li>
+							 <li>&raquo; <strong>Image Size</strong>: Choose the size for the movie poster here.
+                            </li>
+							  <li>&raquo; <strong>Extra Class</strong>: Enter the extra class for this block (optional).
+                            </li>
+				</ul>
+				<h4><strong>3. Slide Options</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_carousel1_slide.png" alt="" />
+                </p> 
+				<p><strong>On the front-end you can see</strong></p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-movie-carousel-1-front.gif" alt="" />
+                </p>
+            </section>
+			
+			<section id="amy_movie_carousel2">
+                <h3>Movie Carousel 2 Shortcode </h3>
+				 <hr class="notop">
+                <p>AmyMovie supports 3 movie carousel styles. And Movie Carousel 2 shortcode supports to display the movies in the carousel style #2. 
+                </p>
+				<h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_carousel2_query.png" alt="" />
+                </p>          
+					
+               <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_carousel2_layout.png" alt="" />
+                </p> 
+                <ul>         
+                           <li>&raquo; <strong>Number Movies</strong>: Enter the number movies will show on the carousel.
+                            </li>
+                            
+							
+							 <li>&raquo; <strong>Show General Fields</strong>: Firstly, you can enable/ disable the fields at <strong>Movie Custom Fields</strong> part of <strong>Movie Settings</strong> section. Which fields are enabled at that <strong>Movie Custom Field</strong> part will appear on this option. Click on the box to decide which fields will show on the carousel.
+                            </li>
+							 <li>&raquo; <strong>Show Custom Field</strong>: Released Date and Language are two default custom fields. And the other custom fields created at <strong>Movie Custom Fields</strong> section of <strong>Movie Settings</strong> will be displayed there. You can drag & drop to enable/ disable as well as changing the position of those fields on the carousel.
+                            </li>
+							  <li>&raquo; <strong>Extra Class</strong>: Enter the extra class for this block (optional).
+                            </li>
+				</ul>
+				<p></p>
+				<p></p>
+				<p><strong>On the front-end you can see</strong></p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-movie-carousel-2-front.gif" alt="" />
+                </p>
+
+            </section>
+			
+			<section id="amy_movie_carousel3">
+                <h3>Movie Carousel 3 Shortcode </h3>
+				 <hr class="notop">
+                <p>AmyMovie supports 3 movie carousel styles. And Movie Carousel 3 shortcode supports to display the movies in the carousel style #3. 
+                </p>
+				<h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_carousel3_query.png" alt="" />
+                </p>          
+				
+				 <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_carousel3_layout.png" alt="" />
+                </p> 
+				<p><strong>On the front-end you can see</strong></p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-movie-caarousel-3-front.gif" alt="" />
+                </p>
+
+            </section>
+			
+			<section id="amy_movie_grid">
+                <h3>Movie Grid Shortcode </h3>
+				 <hr class="notop">
+                <p>Movie Grid Shortcode supports to show the movies in the grid layout.
+                </p>
+				  <h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_grid_query.png" alt="" />
+                </p>          
+				 
+				 <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_grid_layout.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Number Movies</strong>: Enter the number of movies will display on this block.
+                            </li>
+                            <li>&raquo; <strong>Layout</strong>: Movie Grid shortcode provides you two layouts. Please choose a layout that you want.
+                            </li>
+							  <li>&raquo; <strong>Columns</strong>: Click on the arrow down icon to choose the number of columns for the grid layout.
+                            </li>
+                            <li>&raquo; <strong>Tooltip Type</strong>: Shows if you choose Layout 1. You can decide to choose the dark tooltip, light tooltip or disable the tooltip.
+                            </li>
+							 <li>&raquo; <strong>Show Fields - Front:</strong>: Shows if you choose Layout 1. Click on the box to choose which data will be shown on the movie before hovering on the movie poster.
+                            </li>
+							 <li>&raquo; <strong>Show General Field</strong>: Firstly, you can enable/ disable the fields at <strong>Movie Custom Fields</strong> part of <strong>Movie Settings</strong> section. Which fields are enabled at that <strong>Movie Custom Field</strong> part will appear on this option. Click on the box to decide which fields will show on the tooltip.
+                            </li>
+							  <li>&raquo; <strong>Show Custom Field</strong>: Released Date and Language are two default custom fields. And the other custom fields created at <strong>Movie Custom Fields</strong> section of <strong>Movie settings</strong> will be displayed there. You can drag & drop to enable/ disable as well as changing the position of those fields on the tooltip.
+                            </li>
+                            <li>&raquo; <strong>Pagination</strong>: Select On/ Off to show/ hide the pagination.
+                            </li>
+							<li>&raquo; <strong>Extra Class</strong>: Enter the extra class for this block (optional).
+                            </li>
+				</ul>
+				<h4><strong>3. Button Options</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_grid_button.png" alt="" />
+                </p>          
+				<p><strong>On the front-end, you can see</strong></p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-movie-grid-front.jpg" alt="" />
+                </p>
+			 </section>
+			 
+			 <section id="amy_movie_list">
+                <h3>Movie List Shortcode </h3>
+				 <hr class="notop">
+                <p>Movie List Shortcode supports to show the movies in the list layout.
+                </p>
+				  <h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_list_query.png" alt="" />
+                </p>          
+				 
+				 <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/movie_list_layout.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Number Movies</strong>: Enter the number of movies will display on this block.
+                            </li>
+                            
+							 <li>&raquo; <strong>Show General Field</strong>: Firstly, you can enable/ disable the fields at <strong>Movie Custom Fields</strong> part of <strong>Movie Settings</strong> section. Which fields are enabled at that <strong>Movie Custom Field</strong> part will appear on this option. Click on the box to decide which fields will show on the list movies.
+                            </li>
+							  <li>&raquo; <strong>Show Custom Field</strong>: <strong>Released Date</strong> and <strong>Language</strong> are two default custom fields. And the other custom fields created at <strong>Movie Custom Fields</strong> section of <strong>Movie settings</strong> will be displayed there. You can drag & drop to enable/ disable as well as changing the position of those fields on the list movie.
+                            </li>
+                            <li>&raquo; <strong>Pagination</strong>: Select On/ Off to show/ hide the pagination.
+                            </li>
+							<li>&raquo; <strong>Extra Class</strong>: Enter the extra class for this block (optional).
+                            </li>
+				</ul>
+				<p></p>
+				<p></p>
+				<p><strong>On the front-end, you can see</strong></p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-movie-list-front.jpg" alt="" />
+                </p>
+		
+
+            </section>
+			<section id="amy_showtime1">
+                <h3>Showtime 1 Shortcode</h3>
+				 <hr class="notop">
+                <p>Showtime 1 Shortcode supports to show the movies in the list layout.
+                </p>
+				  <h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime1_query_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Genres</strong>: Show if you create Genre field for Category Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the genres to get movies from.
+                            </li>
+                            <li>&raquo; <strong>Actors</strong>: Show if you create Actor field for Person Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the actors to decide to show the movies of those actors.
+                            </li>
+							  <li>&raquo; <strong>Directors</strong>: Show if you create Director field for Person Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the director to decide to show the movies of those directors.
+                            </li>
+                            <li>&raquo; <strong>Order By</strong>: Decide to order movies by Rate, Released Date, Title, Date Random Order, Comment Count.
+                            </li>
+							 <li>&raquo; <strong>Sort Order</strong>: Arrange the displaying order of posts according to Ascending or Descending.
+                            </li>
+							 <li>&raquo; <strong>Movie Type</strong>: Shows if you choose <strong>Cinema</strong> for the purpose of your site. There are four types: <strong>Today</strong> (Start Date = Current Date), <strong>Now Playing</strong> (Start Date < Current Date < End Date), <strong>Coming Soon</strong> (Current Date < Start Date), <strong>Old Movie</strong> (Current Date > End Date).
+                            </li>
+							
+				</ul>
+				 <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime1_layout_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Number Movies</strong>: Enter the number of movies will display on this block.
+                            </li>
+                            
+							 <li>&raquo; <strong>Show General Field</strong>: Firstly, you can enable/ disable the fields at <strong>Movie Custom Fields</strong> part of <strong>Movie Settings</strong> section. Which fields are enabled at that <strong>Movie Custom Field</strong> part will appear on this option. Click on the box to decide which fields will show on the list movies.
+                            </li>
+							  <li>&raquo; <strong>Show Custom Field</strong>: <strong>Released Date</strong> and <strong>Language</strong> are two default custom fields. And the other custom fields created at <strong>Movie Custom Fields</strong> section of <strong>Movie settings</strong> will be displayed there. You can drag & drop to enable/ disable as well as changing the position of those fields on the list movie.
+                            </li>
+                            <li>&raquo; <strong>Pagination</strong>: Select On/ Off to show/ hide the pagination.
+                            </li>
+							
+							<li>&raquo; <strong>Extra Class</strong>: Enter the extra class for this block (optional).
+                            </li>
+				</ul>
+				
+				<h4><strong>3. Showtime Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime1_option_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Layout</strong>: Layout will display on Showtime 1 
+                            </li>
+                            
+							 <li>&raquo; <strong>Showtime Type</strong>: You can choose two type of showtime is <strong>Coming Soon</strong> and <strong>All Days</strong>
+                            </li>
+				
+				<p></p>
+				<p></p>
+				<p><strong>On the front-end you can see</strong></p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-showtime-1-front.jpg" alt="" />
+                </p>
+
+            </section>
+			
+			<section id="amy_showtime2">
+                <h3>Showtime 2 Shortcode</h3>
+				 <hr class="notop">
+                <p>Showtime 2 Shortcode supports to show the movies in the list layout.
+                </p>
+				  <h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime2_query_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Genres</strong>: Show if you create Genre field for Category Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the genres to get movies from.
+                            </li>
+                            <li>&raquo; <strong>Actors</strong>: Show if you create Actor field for Person Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the actors to decide to show the movies of those actors.
+                            </li>
+							  <li>&raquo; <strong>Directors</strong>: Show if you create Director field for Person Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the director to decide to show the movies of those directors.
+                            </li>
+                            <li>&raquo; <strong>Order By</strong>: Decide to order movies by Rate, Released Date, Title, Date Random Order, Comment Count.
+                            </li>
+							 <li>&raquo; <strong>Sort Order</strong>: Arrange the displaying order of posts according to Ascending or Descending.
+                            </li>
+							 <li>&raquo; <strong>Movie Type</strong>: Shows if you choose <strong>Cinema</strong> for the purpose of your site. There are four types: <strong>Today</strong> (Start Date = Current Date), <strong>Now Playing</strong> (Start Date < Current Date < End Date), <strong>Coming Soon</strong> (Current Date < Start Date), <strong>Old Movie</strong> (Current Date > End Date).
+                            </li>
+							
+				</ul>
+				 <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime2_layout_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Number Movies</strong>: Enter the number of movies will display on this block.
+                            </li>
+                            
+							 <li>&raquo; <strong>Show General Field</strong>: Firstly, you can enable/ disable the fields at <strong>Movie Custom Fields</strong> part of <strong>Movie Settings</strong> section. Which fields are enabled at that <strong>Movie Custom Field</strong> part will appear on this option. Click on the box to decide which fields will show on the list movies.
+                            </li>
+							  <li>&raquo; <strong>Show Custom Field</strong>: <strong>Released Date</strong> and <strong>Language</strong> are two default custom fields. And the other custom fields created at <strong>Movie Custom Fields</strong> section of <strong>Movie settings</strong> will be displayed there. You can drag & drop to enable/ disable as well as changing the position of those fields on the list movie.
+                            </li>
+                            <li>&raquo; <strong>Pagination</strong>: Select On/ Off to show/ hide the pagination.
+                            </li>
+							
+							<li>&raquo; <strong>Extra Class</strong>: Enter the extra class for this block (optional).
+                            </li>
+				</ul>
+				
+				<h4><strong>3. Showtime Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime2_option_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Layout Weekly</strong>: Layout Weekly will display on Showtime 2
+                            </li>
+                            
+							 <li>&raquo; <strong>Day Start Week</strong>: Enter the day start week. If"s field empty, today is day start.
+                            </li>
+							<li>&raquo; <strong>Number Date</strong>: Enter the number date you want show, default 7 days.
+                            </li>
+				<p></p>
+				<p></p>
+				<p><strong>On the front-end you can see</strong></p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-showtime-2-front.jpg" alt="" />
+                </p>
+
+            </section>
+			
+			<section id="amy_showtime3">
+                <h3>Showtime 3 Shortcode</h3>
+				 <hr class="notop">
+                <p>Showtime 3 Shortcode supports to show the movies in the list layout.
+                </p>
+				  <h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime3_query_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Genres</strong>: Show if you create Genre field for Category Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the genres to get movies from.
+                            </li>
+                            <li>&raquo; <strong>Actors</strong>: Show if you create Actor field for Person Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the actors to decide to show the movies of those actors.
+                            </li>
+							  <li>&raquo; <strong>Directors</strong>: Show if you create Director field for Person Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the director to decide to show the movies of those directors.
+                            </li>
+                            <li>&raquo; <strong>Order By</strong>: Decide to order movies by Rate, Released Date, Title, Date Random Order, Comment Count.
+                            </li>
+							 <li>&raquo; <strong>Sort Order</strong>: Arrange the displaying order of posts according to Ascending or Descending.
+                            </li>
+							 <li>&raquo; <strong>Movie Type</strong>: Shows if you choose <strong>Cinema</strong> for the purpose of your site. There are four types: <strong>Today</strong> (Start Date = Current Date), <strong>Now Playing</strong> (Start Date < Current Date < End Date), <strong>Coming Soon</strong> (Current Date < Start Date), <strong>Old Movie</strong> (Current Date > End Date).
+                            </li>
+							
+				</ul>
+				 <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime3_layout_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Number Movies</strong>: Enter the number of movies will display on this block.
+                            </li>
+                            
+							 <li>&raquo; <strong>Show General Field</strong>: Firstly, you can enable/ disable the fields at <strong>Movie Custom Fields</strong> part of <strong>Movie Settings</strong> section. Which fields are enabled at that <strong>Movie Custom Field</strong> part will appear on this option. Click on the box to decide which fields will show on the list movies.
+                            </li>
+							  <li>&raquo; <strong>Show Custom Field</strong>: <strong>Released Date</strong> and <strong>Language</strong> are two default custom fields. And the other custom fields created at <strong>Movie Custom Fields</strong> section of <strong>Movie settings</strong> will be displayed there. You can drag & drop to enable/ disable as well as changing the position of those fields on the list movie.
+                            </li>
+                            <li>&raquo; <strong>Pagination</strong>: Select On/ Off to show/ hide the pagination.
+                            </li>
+							
+							<li>&raquo; <strong>Extra Class</strong>: Enter the extra class for this block (optional).
+                            </li>
+				</ul>
+				
+				<h4><strong>3. Showtime Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime3_option_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Layout</strong>: Layout will display on Showtime 3 
+                            </li>
+                            
+							 <li>&raquo; <strong>Day Start Week</strong>: Enter the day start week. If"s field empty, today is day start.
+                            </li>
+							<li>&raquo; <strong>Number Date</strong>: Enter the number date you want show, default 7 days.
+                            </li>
+				
+				<p></p>
+				<p></p>
+				<p><strong>On the front-end you can see</strong></p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-showtime-3-front.jpg" alt="" />
+                </p>
+
+            </section>
+			
+			<section id="amy_showtime4">
+                <h3>Showtime 4 Shortcode</h3>
+				 <hr class="notop">
+                <p>Showtime 4 Shortcode supports to show the movies in the list layout.
+                </p>
+				  <h4><strong>1. Query Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime4_query_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Genres</strong>: Show if you create Genre field for Category Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the genres to get movies from.
+                            </li>
+                            <li>&raquo; <strong>Actors</strong>: Show if you create Actor field for Person Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the actors to decide to show the movies of those actors.
+                            </li>
+							  <li>&raquo; <strong>Directors</strong>: Show if you create Director field for Person Post Type at the Movie Custom Field section of Movie Settings. Click on the box to choose the director to decide to show the movies of those directors.
+                            </li>
+                            <li>&raquo; <strong>Order By</strong>: Decide to order movies by Rate, Released Date, Title, Date Random Order, Comment Count.
+                            </li>
+							 <li>&raquo; <strong>Sort Order</strong>: Arrange the displaying order of posts according to Ascending or Descending.
+                            </li>
+							 <li>&raquo; <strong>Movie Type</strong>: Shows if you choose <strong>Cinema</strong> for the purpose of your site. There are four types: <strong>Today</strong> (Start Date = Current Date), <strong>Now Playing</strong> (Start Date < Current Date < End Date), <strong>Coming Soon</strong> (Current Date < Start Date), <strong>Old Movie</strong> (Current Date > End Date).
+                            </li>
+							
+				</ul>
+				 <h4><strong>2. Layout Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime4_layout_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Number Movies</strong>: Enter the number of movies will display on this block.
+                            </li>
+                            
+							 <li>&raquo; <strong>Show General Field</strong>: Firstly, you can enable/ disable the fields at <strong>Movie Custom Fields</strong> part of <strong>Movie Settings</strong> section. Which fields are enabled at that <strong>Movie Custom Field</strong> part will appear on this option. Click on the box to decide which fields will show on the list movies.
+                            </li>
+							  <li>&raquo; <strong>Show Custom Field</strong>: <strong>Released Date</strong> and <strong>Language</strong> are two default custom fields. And the other custom fields created at <strong>Movie Custom Fields</strong> section of <strong>Movie settings</strong> will be displayed there. You can drag & drop to enable/ disable as well as changing the position of those fields on the list movie.
+                            </li>
+                            <li>&raquo; <strong>Pagination</strong>: Select On/ Off to show/ hide the pagination.
+                            </li>
+							
+							<li>&raquo; <strong>Extra Class</strong>: Enter the extra class for this block (optional).
+                            </li>
+				</ul>
+				
+				<h4><strong>3. Showtime Option</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/showtime4_option_set.png" alt="" />
+                </p>          
+				 <ul>         
+                           <li>&raquo; <strong>Layout</strong>: Enter the layout will displays on Showtime 4
+                            
+							 <li>&raquo; <strong>Showtime Type</strong>: You can choose two type of showtime is <strong>Coming Soon</strong> and <strong>All Days</strong>
+                            </li>
+				
+				<p></p>
+				<p></p>
+				<p><strong>On the front-end you can see</strong></p>
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-showtime-4-front.jpg" alt="" />
+                </p>
+
+            </section>
+			
+			
+			
+			<section id="amy_trailer">
+                <h3>Trailer List Shortcode</h3>
+				 <hr class="notop">
+                <p>Trailer List shortcode helps to display the list of trailers/ videos for any movies/ games as you want. This shortcode provides you two ways to show the list movies with the trailers.
+                </p>
+				  <h4><strong>1. Automatically Get Movies From The Library</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/trailer_list_set1.png" alt="" />
+                </p>          
+				 
+				 <h4><strong>2. Manually add the movies and trailer</strong></h4>
+				   <hr class="notop">
+				 <p>
+                    <img class="fullwidth" src="images/imagedoc/image/amy-trailer-list.jpg" alt="" />
+                </p>          
+				 <ul>         
+                           
+                            <li><p>&raquo; Click on <strong>Plus</strong> icon to add new items (add new movies and trailers). And at each item, please click on the Arrow icon to edit the item. And you can add as many items as you want.</p>
+							<p>
+								<img class="fullwidth" src="images/imagedoc/image/trailer_list_set2.png" alt="" />
+							</p> 
+						   </li>	
+					
+				</ul>
+				<p>
+				</p>
+				<p>
+				</p>
+				<p><strong>On the front-end you can see</strong></p>
+				<p>
+                    <img class="fullwidth" src="images/imagedoc/image/trailer_list_font.png" alt="" />
+                </p>
+            </section>
+			
+            <section id="custom_widget" class="page-header">
+                <h3>Custom Widgets</h3>
+                <hr class="notop">
+				Beside the default widgets, AmyMovie offers you 4 custom widgets, they will help you to create your desired sidebars, footer, topbar and copyright.
+            </section>
+            <section id="widget_introduction">
+                <h3>Widget Introduction</h3>
+				 <hr class="notop">
+                <h4><strong>1. What is widgets?</strong></h4>
+                <p>A WordPress Widgets are small blocks that perform a specific function. You can add widgets to sidebars/ widget areas to show on your webpages. At the screenshot above you can see widgets are on your left-hand side and the Widget Areas are on the right-hand side.
+                </p>
+                <p>You can find more information about widget <strong><a href="https://codex.wordpress.org/WordPress_Widgets">HERE</a></strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/widget-custom.jpg" alt="" />
+                </p>
+
+                <ul>
+
+                    <li><strong><img src="images/imagedoc/image/icon_1.png" alt=""/> Widgets</strong>
+                    </li>
+                    <li><strong><img src="images/imagedoc/image/icon_2.png" alt=""/> Widget Areas/ Sidebars</strong>
+                    </li>
+
+                </ul>
+                <p></p>
+                <p></p>
+                <h4><strong>2. How to add widgets into Widget areas</strong></h4>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/widget-area.jpg" alt="" />
+                </p>
+                <ul>
+
+                    <li><span class="span-style1">Step 1</span>: Drag and drop widget into <strong>Widget Area</strong> as you want, then set it up.
+                    </li>
+                    <li><span class="span-style1">Step 2</span>: Click <strong>Save</strong> button to save your change.
+                    </li>
+
+                </ul>
+            </section>
+
+            <section id="amy_list_wg">
+                <h3>Amy Movie List</h3>
+				 <hr class="notop">
+                <p>Amy Movie List widget allows you to add the list of the posts or the movies into the sidebar or any Widget Areas.
+                </p>
+                <ul>
+
+                    <li>
+                        <p><strong>1. How to show list of the posts </strong>
+                        </p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-list.jpg" alt="" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><strong>2. How to show list of the movies </strong>
+                        </p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-list-movie.jpg" alt="" />
+                        </p>
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <section id="amy_comment">
+                <h3>Amy Movie Comment</h3>
+				 <hr class="notop">
+                <p>Amy Movie Comment widget allows you to list the comments on the sidebar or the widget area as you want.
+                </p>
+                <p><strong>At the backend you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/widget-comment.jpg" alt="" />
+                </p>
+                <p><strong>On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/widget-comment-fr.jpg" alt="" />
+                </p>
+
+            </section>
+
+            <section id="amy_module">
+                <h3>Amy Movie Module</h3>
+				 <hr class="notop">
+                <p>Amy Movie Module Widget allows you to add Advertising module, Contact Form module, Social List module or About module.
+                </p>
+                <ul>
+
+                    <li>
+                        <p><strong>1. Advertising module</strong>: Advertising Module allows you to add advertising banner and insert a link into it.</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-module-ad.jpg" alt="" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><strong>2. Contact Module</strong>: Contact module allows you to add some information about your address, phone and email so that visitor can be easier to contact you if they want.
+                        </p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-module-contact.jpg" alt="" />
+                        </p>
+                        <p>On the frontend, you can see</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-module-contac-frontendt.jpg" alt="" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><strong>3. Social List Module</strong>: Social List module allows you to list the social network information on your module.</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-module-social.jpg" alt="" />
+                        </p>
+                        <p>On the frontend, you can see</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-module-social-frontend.jpg" alt="" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><strong>4. About module</strong>: About module allows you to add the information (by text) under a banner.</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-module-about.jpg" alt="" />
+                        </p>
+                        <p>On the frontend, you can see</p>
+                        <p>
+                            <img class="fullwidth" src="images/imagedoc/image/widget-module-about-frontend.jpg" alt="" />
+                        </p>
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <section id="amy_comming">
+                <h3>Amy Movie Coming Soon</h3>
+				 <hr class="notop">
+                <p>Amy Movie Coming Soon widget allows you to show the list of movie coming soon.
+                </p>
+                <p><strong>At the backend you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/widget-coming.jpg" alt="" />
+                </p>
+                <p><strong>On the frontend, you can see</strong>
+                </p>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/widget-coming-frontend.jpg" alt="" />
+                </p>
+
+            </section>
+
+            <section id="side" class="page-header">
+                <h3>Sidebar/ Widget Area Settings</h3>
+                <hr class="notop">
+                <p><strong>1. What is sidebar/ widget area?</strong>
+                </p>
+                <p>Sidebar/ Widget Areas display the information other than the main content of the webpage. A sidebar will include widgets which are configured by admin. In other word, widgets are only useful when they’re put into Sidebars/ Widget Areas.
+                </p>
+                <p><strong>2. Global Widget Areas</strong>
+                </p>
+                <p>
+                    Global Widget Areas are Widget Areas displayed on all pages. They are Footer Widget after, Footer Widget Before, # Footer Widget. You can enable/ disable Global widget areas at Theme options
+                </p>
+                <p><strong>3. Custom Widget Areas</strong>
+                </p>
+                <p>You can create unlimited Widget Areas for your site at Custom Widget Area button and choose one of them is your sidebar
+                </p>
+                <h4><strong>How to create new Widget Area</strong></h4>
+                <ul>
+
+                    <li>
+                        <p><span class="span-style1">Step 1</span>: From <strong>Dashboard</strong> => <strong>Appearance</strong> => <strong>Widgets</strong>.</p>
+                    </li>
+                    <li>
+                        <p><span class="span-style1">Step 2</span>: At <strong>Custom Widget Area</strong> field, enter the name of new sidebar (widget area).</p>
+                    </li>
+
+                </ul>
+                <p>
+                    <img class="fullwidth" src="images/imagedoc/image/sidebar-custom.jpg" alt="" />
+                </p>
+
+            </section>
+
+        </div>
+    </div>
+</body>
+
+</html>
